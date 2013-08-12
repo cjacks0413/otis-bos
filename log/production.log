@@ -1,0 +1,177 @@
+I, [2013-08-12T11:51:42.760253 #24987]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 11:51:42 -0400
+F, [2013-08-12T11:51:43.014688 #24987] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2013-08-12T11:51:43.163972 #24987]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2013-08-12 11:51:43 -0400
+F, [2013-08-12T11:51:43.191461 #24987] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2013-08-12T11:54:23.492844 #25055]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 11:54:23 -0400
+F, [2013-08-12T11:54:23.720501 #25055] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2013-08-12T11:54:23.771744 #25055]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2013-08-12 11:54:23 -0400
+F, [2013-08-12T11:54:23.773023 #25055] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2013-08-12T12:02:35.802052 #25082]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 12:02:35 -0400
+F, [2013-08-12T12:02:35.902583 #25082] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2013-08-12T12:02:36.810675 #25082]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 12:02:36 -0400
+F, [2013-08-12T12:02:36.812535 #25082] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2013-08-12T12:04:20.565766 #25179]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 12:04:20 -0400
+F, [2013-08-12T12:04:20.743137 #25179] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
