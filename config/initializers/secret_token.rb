@@ -9,4 +9,17 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Bpr::Application.config.secret_key_base = 'ac58bbbd0414095ff1778cb22b85952b57cdb1c06c2096e5689f84c2aaf47db222da48efe2487b295f4f91411b08faff52eb5cf376e36b7f682ace116dce19a5'
+require 'securerandom'
+
+def secure_token
+  token_file = Rails.root.join('.secret') 
+  if File.exist?(token_file)
+    File.read(token_file).chomp
+  else
+    token = SecureRandom.hex(64)
+    File.write(token_file, token) 
+    token
+  end 
+end
+
+Bpr::Application.config.secret_key_base = secure_token 
