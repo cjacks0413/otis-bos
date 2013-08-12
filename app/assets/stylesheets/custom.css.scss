@@ -1,0 +1,76 @@
+@import "bootstrap"; 
+
+/* variables */
+
+$blue: #3bbfce;
+$lightgrey: #888888; 
+$coral: #ffcccc; 
+
+/* */ 
+/* container */ 
+
+.hero-unit {
+  height: 100%; 
+  width: 70%; 
+  margin-left: auto;
+  margin-right: auto; 
+}
+/* font */ 
+
+h2 {
+  font-size: 1.2em; 
+}
+
+/* footer */ 
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid $lightgrey;
+  color: $blue;
+  font-size: small; 
+  a {
+    color: $blue;
+    &:hover {
+      color: $lightgrey; 
+    }
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
+}
+
+/* header */ 
+
+header {
+  padding-top: 45px;
+  border-bottom: 1px solid $lightgrey; 
+  color: $coral;
+  font-size: large;
+  background-color: black;  
+  a {
+    color: $coral;
+    &:hover {
+      color: $lightgrey;
+    }
+  }
+  nav {
+    float: right; 
+    list-style: none;
+    li { 
+      float: left;
+      margin-left: 10px; 
+    }
+  }
+  #logo { 
+    text-transform: uppercase; 
+    font-size: 1.7em;
+  }  
+} 
+
+
