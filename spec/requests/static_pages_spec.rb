@@ -8,8 +8,7 @@ describe "Static pages" do
   describe "Home page" do 
     before { visit root_path } 
     
-    it { should have_title(' Boston Public Restrooms | Home' ) } 
-  #  it { should_not have_title(' #{base_title} | Home') } 
+    it { should have_title(' Boston Public Restrooms') } 
   end
   
   describe "Contact page" do
