@@ -1,4 +1,6 @@
 Bpr::Application.routes.draw do
+  resources :restrooms 
+  match '/add', to: 'restrooms#create', via: 'post'
   root 'static_pages#home' 
   match 'contact', to: 'static_pages#contact', via: 'get' 
   match 'about', to: 'static_pages#about', via: 'get'
