@@ -1,4 +1,7 @@
-<h1>All Restrooms</h1> 
-<%= @restroom.name %> <br /> 
-<%= @restroom.line1 %> <br /> 
-<%= @restroom.city %>, <%= @restroom.state%> , <%= @restroom.zip %> 
+<% provide(:title, @restroom.name) %> 
+<h2> <%= @restroom.name %> </h2>
+<p><%= @restroom.line1 %> <br /> 
+<%= @restroom.city %>, <%= @restroom.state%> , <%= @restroom.zip %> </p> 
+
+<p>Reviews, Rating, Maps...</p>
+
