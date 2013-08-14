@@ -1,1 +1,31 @@
+<% provide(:title, 'Add Restroom') %> 
 <h1>Add Restroom</h1>
+
+<div class="row">
+  <div class="span9">
+    <div class="row">
+      <%= form_for(@restroom) do |f|%>
+      <div class="span4">
+		 <%= f.label :Name%>
+		 <%= f.text_field :name, placeholder: "Name of Restroom" %>
+	
+		 <%= f.label :Address%>
+		 <%= f.text_field :line1, placeholder: "Restroom Address"%>
+	
+		 <%= f.text_field :line2, placeholder: "Second Line (Optional)"%>
+ 	  </div>
+ 	  <div class="span4">	  
+		 <%= f.label :City%>
+		 <%= f.text_field :city, placeholder: "City"%>
+	
+		 <%= f.label :State%>
+		 <%= f.text_field :state, placeholder: "State Abbreviation"%>
+	
+		 <%= f.label :zip%>
+		 <%= f.text_field :zip, placeholder: "Zip Code"%>
+		 <%= f.submit "Add This Restroom"%>
+		 <% end %>  
+	  </div>
+    </div> 
+  </div>
+</div>
