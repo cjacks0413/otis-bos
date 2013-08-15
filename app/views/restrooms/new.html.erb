@@ -5,6 +5,7 @@
   <div class="span9">
     <div class="row">
       <%= form_for(@restroom) do |f|%>
+      <%= render 'shared/error_messages' %>
       <div class="span4">
 		 <%= f.label :Name%>
 		 <%= f.text_field :name, placeholder: "Name of Restroom" %>
