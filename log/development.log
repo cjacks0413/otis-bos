@@ -8663,3 +8663,1877 @@ Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 09:45:4
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 09:45:44 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 09:58:42 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 09:58:42 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 09:58:42 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 09:58:42 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 09:58:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 09:58:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 09:58:42 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 09:58:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 09:58:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 09:58:42 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 09:58:42 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 10:04:32 -0400
+Processing by StaticPagesController#home as HTML
+ERROR: compiling _app_views_shared__search_form_html_erb__288602501007523269_70115531258640 RAISED /Users/cameronjackson1/Github/otis-bos/app/views/shared/_search_form.html.erb:1: syntax error, unexpected ')'
+...rooms_path, method: "get", id:) do @output_buffer.safe_appen...
+...                               ^
+/Users/cameronjackson1/Github/otis-bos/app/views/shared/_search_form.html.erb:5: syntax error, unexpected keyword_ensure, expecting end-of-input
+Function body:           def _app_views_shared__search_form_html_erb__288602501007523269_70115531258640(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "shared/_search_form";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  form_tag(restrooms_path, method: "get", id:) do @output_buffer.safe_append=' 
+';@output_buffer.safe_append='  ';@output_buffer.append=( text_field_tag :search, params[:search] );@output_buffer.safe_append='
+  ';@output_buffer.append=( submit_tag "Search", :name => nil );@output_buffer.safe_append=' 
+'; end ;@output_buffer.safe_append=' ';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/partial_renderer.rb:306:in `render_partial'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/partial_renderer.rb:279:in `block in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/partial_renderer.rb:278:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:47:in `render_partial'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/Users/cameronjackson1/Github/otis-bos/app/views/static_pages/home.html.erb:10:in `_app_views_static_pages_home_html_erb__1679435803194595125_70115508016840'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:143:in `block in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__1837070624243157030__process_action__callbacks'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__2297743954514127587__call__callbacks'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered shared/_search_form.html.erb (41.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (42.6ms)
+Completed 500 Internal Server Error in 46ms
+
+ActionView::Template::Error (/Users/cameronjackson1/Github/otis-bos/app/views/shared/_search_form.html.erb:1: syntax error, unexpected ')'
+...rooms_path, method: "get", id:) do @output_buffer.safe_appen...
+...                               ^
+/Users/cameronjackson1/Github/otis-bos/app/views/shared/_search_form.html.erb:5: syntax error, unexpected keyword_ensure, expecting end-of-input):
+    1: <%= form_tag(restrooms_path, method: "get", id:) do %> 
+    2:   <%= text_field_tag :search, params[:search] %>
+    3:   <%= submit_tag "Search", :name => nil %> 
+    4: <% end %> 
+  app/views/static_pages/home.html.erb:10:in `_app_views_static_pages_home_html_erb__1679435803194595125_70115508016840'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 10:04:45 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:04:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:04:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:04:45 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:04:45 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:04:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:04:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:04:45 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:04:45 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:04:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:04:45 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 10:05:01 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:05:01 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:05:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:05:01 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:05:01 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:05:01 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:05:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:05:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:05:01 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:05:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:05:01 -0400
+
+
+Started GET "/search" for 127.0.0.1 at 2013-08-15 10:26:34 -0400
+Processing by RestroomsController#search as HTML
+Completed 500 Internal Server Error in 40ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/models/restroom.rb:9:in `search'
+  app/models/restroom.rb:10:in `search'
+  app/controllers/restrooms_controller.rb:23:in `search'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.8ms)
+
+
+Started GET "/search/:84399" for 127.0.0.1 at 2013-08-15 10:26:49 -0400
+
+ActionController::RoutingError (No route matches [GET] "/search/:84399"):
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.1ms)
+
+
+Started GET "/restrooms/new" for 127.0.0.1 at 2013-08-15 10:41:39 -0400
+Processing by RestroomsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered restrooms/new.html.erb within layouts/application (28.9ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 81ms (Views: 75.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/restrooms" for 127.0.0.1 at 2013-08-15 10:43:12 -0400
+Processing by RestroomsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4m3aa/WrmLiXlAxkEBLlIIGW61p8lqUP4/SoT6x0bFE=", "restroom"=>{"name"=>"Boston Public Library", "line1"=>"700 Boylston St.", "line2"=>"", "city"=>"Boston", "state"=>"MA", "zip"=>"02166"}, "commit"=>"Add This Restroom"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (111.6ms)[0m  [1mINSERT INTO "restrooms" ("city", "created_at", "line1", "line2", "name", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["city", "Boston"], ["created_at", Thu, 15 Aug 2013 14:43:12 UTC +00:00], ["line1", "700 Boylston St."], ["line2", ""], ["name", "Boston Public Library"], ["state", "MA"], ["updated_at", Thu, 15 Aug 2013 14:43:12 UTC +00:00], ["zip", "02166"]]
+  [1m[35m (5051.0ms)[0m  commit transaction
+SQLite3::BusyException: database is locked: commit transaction
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 5170ms
+
+ActiveRecord::StatementInvalid (SQLite3::BusyException: database is locked: commit transaction):
+  app/controllers/restrooms_controller.rb:8:in `create'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 10:44:18 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (14.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (2.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (29.2ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 501ms (Views: 477.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:19 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:19 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:19 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:19 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:19 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:19 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:19 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:19 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:19 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:19 -0400
+
+
+Started GET "/restrooms/new" for 127.0.0.1 at 2013-08-15 10:44:20 -0400
+Processing by RestroomsController#new as HTML
+  Rendered shared/_error_messages.html.erb (29.5ms)
+  Rendered restrooms/new.html.erb within layouts/application (103.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 153ms (Views: 119.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/restrooms" for 127.0.0.1 at 2013-08-15 10:44:28 -0400
+Processing by RestroomsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4m3aa/WrmLiXlAxkEBLlIIGW61p8lqUP4/SoT6x0bFE=", "restroom"=>{"name"=>"Boston Public Library", "line1"=>"700 Boylston St.", "line2"=>"Boston Public Library", "city"=>"Boston", "state"=>"MA", "zip"=>"02166"}, "commit"=>"Add This Restroom"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (3.6ms)[0m  [1mINSERT INTO "restrooms" ("city", "created_at", "line1", "line2", "name", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["city", "Boston"], ["created_at", Thu, 15 Aug 2013 14:44:28 UTC +00:00], ["line1", "700 Boylston St."], ["line2", "Boston Public Library"], ["name", "Boston Public Library"], ["state", "MA"], ["updated_at", Thu, 15 Aug 2013 14:44:28 UTC +00:00], ["zip", "02166"]]
+  [1m[35m (50.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/restrooms/1
+Completed 302 Found in 62ms (ActiveRecord: 54.4ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-15 10:44:28 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestroom Load (0.3ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered restrooms/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 71ms (Views: 41.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:28 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:28 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:28 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:28 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:28 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:28 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:28 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 10:44:33 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.9ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restrooms/new" for 127.0.0.1 at 2013-08-15 10:44:34 -0400
+Processing by RestroomsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered restrooms/new.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/restrooms" for 127.0.0.1 at 2013-08-15 10:44:49 -0400
+Processing by RestroomsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4m3aa/WrmLiXlAxkEBLlIIGW61p8lqUP4/SoT6x0bFE=", "restroom"=>{"name"=>"Massachusetts State House", "line1"=>"24 Beacon St.", "line2"=>"", "city"=>"Boston", "state"=>"", "zip"=>""}, "commit"=>"Add This Restroom"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_error_messages.html.erb (3.0ms)
+  Rendered restrooms/new.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 14.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:49 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:49 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:49 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:49 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:49 -0400
+
+
+Started POST "/restrooms" for 127.0.0.1 at 2013-08-15 10:44:58 -0400
+Processing by RestroomsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4m3aa/WrmLiXlAxkEBLlIIGW61p8lqUP4/SoT6x0bFE=", "restroom"=>{"name"=>"Massachusetts State House", "line1"=>"24 Beacon St.", "line2"=>"", "city"=>"Boston", "state"=>"MA", "zip"=>"02133"}, "commit"=>"Add This Restroom"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "restrooms" ("city", "created_at", "line1", "line2", "name", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["city", "Boston"], ["created_at", Thu, 15 Aug 2013 14:44:58 UTC +00:00], ["line1", "24 Beacon St."], ["line2", ""], ["name", "Massachusetts State House"], ["state", "MA"], ["updated_at", Thu, 15 Aug 2013 14:44:58 UTC +00:00], ["zip", "02133"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/restrooms/2
+Completed 302 Found in 6ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/restrooms/2" for 127.0.0.1 at 2013-08-15 10:44:58 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRestroom Load (0.2ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered restrooms/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:58 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:58 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:58 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:44:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:58 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:58 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:44:58 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 10:45:07 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restrooms?utf8=%E2%9C%93&search=02116" for 127.0.0.1 at 2013-08-15 10:45:14 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02116"}
+  Rendered restrooms/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:45:15 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:45:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:15 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:45:15 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:45:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:15 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:15 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:15 -0400
+
+
+Started GET "/restrooms?utf8=%E2%9C%93&search=" for 127.0.0.1 at 2013-08-15 10:45:20 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>""}
+  Rendered restrooms/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:20 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:45:20 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:45:20 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:45:20 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:45:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:20 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:20 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:20 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:20 -0400
+
+
+Started GET "/restrooms?utf8=%E2%9C%93&search=02166" for 127.0.0.1 at 2013-08-15 10:45:56 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166"}
+  Rendered restrooms/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:45:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:56 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:45:56 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:45:56 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:45:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:56 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:56 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:45:56 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 10:47:24 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 103ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:47:25 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:47:25 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:47:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:47:25 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:47:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:47:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:47:25 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:47:25 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:47:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:47:25 -0400
+
+
+Started GET "/restrooms?utf8=%E2%9C%93&search=02116" for 127.0.0.1 at 2013-08-15 10:47:37 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02116"}
+  Rendered restrooms/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:47:37 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:47:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:47:37 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:47:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:47:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:47:37 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:47:37 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:47:37 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:47:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:47:37 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 10:50:54 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:50:55 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:50:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:50:55 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:50:55 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:50:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:50:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:50:55 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:50:55 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:50:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:50:55 -0400
+
+
+Started GET "/restrooms?utf8=%E2%9C%93&search=" for 127.0.0.1 at 2013-08-15 10:50:56 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>""}
+  [1m[35mRestroom Load (0.1ms)[0m  SELECT "restrooms".* FROM "restrooms"
+  Rendered restrooms/index.html.erb within layouts/application (35.5ms)
+Completed 500 Internal Server Error in 42ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <h1>All Restrooms</h1> 
+    2: 
+    3: <% @restrooms.each do |c| %>
+    4:   <%= @restroom.name %> 
+    5:   <%= @restroom.line1 %>  
+    6:   <%= @restroom.city %>, 
+    7:   <%= @restroom.state%>, 
+  app/views/restrooms/index.html.erb:4:in `block in _app_views_restrooms_index_html_erb___4085328350653197678_70226432683960'
+  app/views/restrooms/index.html.erb:3:in `_app_views_restrooms_index_html_erb___4085328350653197678_70226432683960'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (49.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 10:51:43 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:51:43 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:51:43 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:51:43 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:51:43 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:51:43 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:51:43 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:51:43 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:51:43 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:51:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:51:43 -0400
+
+
+Started GET "/restrooms?utf8=%E2%9C%93&search=&commit=Search" for 127.0.0.1 at 2013-08-15 10:51:44 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Search"}
+  [1m[36mRestroom Load (0.3ms)[0m  [1mSELECT "restrooms".* FROM "restrooms"[0m
+  Rendered restrooms/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <h1>All Restrooms</h1> 
+    2: 
+    3: <% @restrooms.each do |c| %>
+    4:   <%= @restroom.name %> 
+    5:   <%= @restroom.line1 %>  
+    6:   <%= @restroom.city %>, 
+    7:   <%= @restroom.state%>, 
+  app/views/restrooms/index.html.erb:4:in `block in _app_views_restrooms_index_html_erb___4085328350653197678_70226432683960'
+  app/views/restrooms/index.html.erb:3:in `_app_views_restrooms_index_html_erb___4085328350653197678_70226432683960'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-15 10:53:51 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRestroom Load (0.4ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered restrooms/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 14.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:53:51 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:53:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:53:51 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:53:51 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:53:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:53:51 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:53:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:53:51 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:53:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:53:51 -0400
+
+
+Started GET "/restrooms/2" for 127.0.0.1 at 2013-08-15 10:53:53 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRestroom Load (0.2ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered restrooms/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:53:53 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:53:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:53:53 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:53:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:53:53 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:53:53 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:53:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:53:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:53:53 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:53:53 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 10:56:03 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:03 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:03 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:03 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:03 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:03 -0400
+
+
+Started GET "/restrooms?utf8=%E2%9C%93&search=&commit=Search" for 127.0.0.1 at 2013-08-15 10:56:05 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Search"}
+  Rendered restrooms/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:05 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:05 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:05 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:05 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:05 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:05 -0400
+
+
+Started GET "/restrooms?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 10:56:10 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  Rendered restrooms/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:10 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:10 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:10 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:10 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:10 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:10 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 10:56:40 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:40 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:40 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:40 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 10:56:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:40 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:40 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:56:40 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=92166&commit=Search" for 127.0.0.1 at 2013-08-15 10:56:42 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"92166", "commit"=>"Search"}
+Completed 500 Internal Server Error in 7ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/models/restroom.rb:9:in `search'
+  app/models/restroom.rb:10:in `search'
+  app/controllers/restrooms_controller.rb:23:in `search'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=92166&commit=Search" for 127.0.0.1 at 2013-08-15 11:01:52 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"92166", "commit"=>"Search"}
+  Rendered restrooms/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 12ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:01:52 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:01:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:01:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:01:52 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:01:52 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:01:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:01:52 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:01:52 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:01:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:01:52 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02116&commit=Search" for 127.0.0.1 at 2013-08-15 11:01:58 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02116", "commit"=>"Search"}
+  Rendered restrooms/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:01:58 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:01:58 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:01:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:01:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:01:58 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:01:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:01:58 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:01:58 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:01:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:01:58 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 11:02:10 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:02:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:02:10 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:02:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:02:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:02:10 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:02:10 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:02:10 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:02:10 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:02:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:02:10 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02116&commit=Search" for 127.0.0.1 at 2013-08-15 11:02:13 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02116", "commit"=>"Search"}
+  Rendered restrooms/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 14ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:02:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:02:13 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:02:13 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:02:13 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:02:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:02:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:02:13 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:02:13 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:02:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:02:13 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 11:05:13 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:05:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:05:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:05:13 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:05:13 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:05:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:05:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:05:13 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:05:13 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:05:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:05:13 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02116&commit=Search" for 127.0.0.1 at 2013-08-15 11:05:16 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02116", "commit"=>"Search"}
+Completed 500 Internal Server Error in 6ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/models/restroom.rb:9:in `search'
+  app/models/restroom.rb:10:in `search'
+  app/controllers/restrooms_controller.rb:24:in `search'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.5ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02116&commit=Search" for 127.0.0.1 at 2013-08-15 11:13:53 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02116", "commit"=>"Search"}
+  [1m[35mRestroom Load (0.1ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02116%')
+  Rendered restrooms/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 11.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:13:53 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:13:53 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:13:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:13:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:13:53 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:13:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:13:53 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:13:53 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:13:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:13:53 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02116&commit=Search" for 127.0.0.1 at 2013-08-15 11:13:59 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02116", "commit"=>"Search"}
+  [1m[36mRestroom Load (0.4ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02116%')[0m
+  Rendered restrooms/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:13:59 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:13:59 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:13:59 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:13:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:13:59 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:13:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:13:59 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:13:59 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:13:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:13:59 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02116&commit=Search" for 127.0.0.1 at 2013-08-15 11:14:05 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02116", "commit"=>"Search"}
+  [1m[35mRestroom Load (0.2ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02116%')
+  Rendered restrooms/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:14:05 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:14:05 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:14:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:14:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:14:05 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:14:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:14:05 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:14:05 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:14:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:14:05 -0400
+
+
+Started GET "/1" for 127.0.0.1 at 2013-08-15 11:14:10 -0400
+
+ActionController::RoutingError (No route matches [GET] "/1"):
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (245.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (289.1ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-15 11:14:15 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestroom Load (0.3ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered restrooms/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 29ms (Views: 7.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:14:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:14:15 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:14:15 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:14:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:14:15 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:14:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:14:15 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:14:15 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:14:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:14:15 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:14:21 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[35mRestroom Load (0.2ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')
+  Rendered restrooms/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <h1>All Restrooms</h1> 
+    2: 
+    3: <% @restrooms.each do |c| %>
+    4:   <%= @restroom.name %> 
+    5:   <%= @restroom.line1 %>  
+    6:   <%= @restroom.city %>, 
+    7:   <%= @restroom.state%>, 
+  app/views/restrooms/index.html.erb:4:in `block in _app_views_restrooms_index_html_erb___4085328350653197678_70226456900400'
+  app/views/restrooms/index.html.erb:3:in `_app_views_restrooms_index_html_erb___4085328350653197678_70226456900400'
+  app/controllers/restrooms_controller.rb:26:in `search'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.6ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:19:24 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[36mRestroom Load (0.5ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')[0m
+  Rendered restrooms/index.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `line1' for #<ActiveRecord::Relation::ActiveRecord_Relation_Restroom:0x007fbdbe0a9320>):
+    2: 
+    3: <% @restrooms.each do |c| %>
+    4:   <%= @restrooms.name %> 
+    5:   <%= @restrooms.line1 %>  
+    6:   <%= @restrooms.city %>, 
+    7:   <%= @restrooms.state%>, 
+    8:   <%= @restrooms.zip %> 
+  app/views/restrooms/index.html.erb:5:in `block in _app_views_restrooms_index_html_erb___4085328350653197678_70226456967680'
+  app/views/restrooms/index.html.erb:3:in `_app_views_restrooms_index_html_erb___4085328350653197678_70226456967680'
+  app/controllers/restrooms_controller.rb:26:in `search'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.1ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:20:53 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[35mRestroom Load (0.2ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')
+  Rendered restrooms/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 182ms (Views: 179.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:20:53 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:20:53 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:20:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:20:53 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:20:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:20:53 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:20:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:20:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:20:53 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:20:53 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 11:23:33 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:23:33 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:23:33 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:23:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:33 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:23:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:33 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:33 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:33 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:23:36 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "restrooms" WHERE (zip LIKE '%02166%')[0m
+  [1m[35mRestroom Load (0.2ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')
+  Rendered restrooms/search.html.erb within layouts/application (27.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 35.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:23:36 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:23:36 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:23:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:36 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:23:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:36 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:36 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:36 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:23:56 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "restrooms" WHERE (zip LIKE '%02166%')[0m
+  [1m[35mRestroom Load (0.2ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')
+  Rendered restrooms/search.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:23:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:56 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:23:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:56 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:56 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:23:56 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:23:56 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:23:56 -0400
+
+
+Started GET "/restrooms/2" for 127.0.0.1 at 2013-08-15 11:24:36 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRestroom Load (0.3ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered restrooms/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/restrooms/new" for 127.0.0.1 at 2013-08-15 11:24:38 -0400
+Processing by RestroomsController#new as HTML
+  Rendered shared/_error_messages.html.erb (246.4ms)
+  Rendered restrooms/new.html.erb within layouts/application (378.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 387ms (Views: 386.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/restrooms" for 127.0.0.1 at 2013-08-15 11:25:00 -0400
+Processing by RestroomsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4m3aa/WrmLiXlAxkEBLlIIGW61p8lqUP4/SoT6x0bFE=", "restroom"=>{"name"=>"Starbucks", "line1"=>"108 Downton Rd.", "line2"=>"Boston Public Library", "city"=>"Boston", "state"=>"MA", "zip"=>"02166"}, "commit"=>"Add This Restroom"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (71.6ms)[0m  [1mINSERT INTO "restrooms" ("city", "created_at", "line1", "line2", "name", "state", "updated_at", "zip") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["city", "Boston"], ["created_at", Thu, 15 Aug 2013 15:25:00 UTC +00:00], ["line1", "108 Downton Rd."], ["line2", "Boston Public Library"], ["name", "Starbucks"], ["state", "MA"], ["updated_at", Thu, 15 Aug 2013 15:25:00 UTC +00:00], ["zip", "02166"]]
+  [1m[35m (28.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/restrooms/3
+Completed 302 Found in 149ms (ActiveRecord: 100.6ms)
+
+
+Started GET "/restrooms/3" for 127.0.0.1 at 2013-08-15 11:25:01 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRestroom Load (0.2ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered restrooms/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:25:01 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:25:01 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:25:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:25:01 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:25:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:25:01 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:25:01 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:25:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:25:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:25:01 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 11:25:05 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:25:08 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "restrooms" WHERE (zip LIKE '%02166%')
+  [1m[36mRestroom Load (0.3ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')[0m
+  Rendered restrooms/search.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:25:09 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:25:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:25:09 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:25:09 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:25:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:25:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:25:09 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:25:09 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:25:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:25:09 -0400

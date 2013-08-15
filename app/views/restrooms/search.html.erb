@@ -1,0 +1,13 @@
+<h1>Restrooms near <%= @zip %> </h1> 
+
+<ul class="span4">
+<% @restrooms.each do |r| %>
+<li>
+  <%= r.name %> 
+  <%= r.line1 %>  
+  <%= r.city %>, 
+  <%= r.state%>, 
+  <%= r.zip %> 
+</li> 
+<% end %>
+</ul>

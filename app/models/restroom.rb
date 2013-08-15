@@ -5,4 +5,13 @@ class Restroom < ActiveRecord::Base
   validates :city, presence: true, length: { maximum: 50 } 
   validates :state, presence: true, length: { is: 2 }  
   validates :zip, presence: true, format: { with: /\A\d{5}(?:[-\s]\d{4})?\z/ } 
+  
+  def self.search(query)
+  #  if search
+      where 'zip LIKE ?', "%#{query}%"  
+   # else
+    #  scoped 
+   # end 
+  end 
+
 end

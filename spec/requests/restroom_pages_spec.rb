@@ -49,6 +49,16 @@ describe "RestroomPages" do
 	  it { should have_content(restroom.name) }
 	  it { should have_content(restroom.line1) } 
 	end
-  end 
+  end
+  
+#   describe "search" do     
+#     before do 
+#   	   fill_in "search", with: "02116" 
+#   	end     
+#     
+#     it "should find the restroom" do 
+#               
+#     
+#   end 
 
 end 
