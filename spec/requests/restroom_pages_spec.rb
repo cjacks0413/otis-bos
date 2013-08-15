@@ -13,6 +13,13 @@ describe "RestroomPages" do
       it "should not create a restroom" do
         expect { click_button submit }.not_to change(Restroom, :count)
       end
+      
+      describe "after submission" do
+        before { click_button submit } 
+        
+          it { should have_title('Add Restroom') } 
+          it { should have_content('error') } 
+        end
     end
     
     describe "with valid information" do 
