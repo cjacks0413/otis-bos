@@ -13,7 +13,7 @@ class RestroomsController < ApplicationController
   end 
   
   def index
-    @restrooms = Restroom.search(params[:search]) 
+    @restrooms = Restroom.all 
   end
   
   def show
@@ -22,12 +22,8 @@ class RestroomsController < ApplicationController
   
   def search
     @params = params[:search] 
-    @restrooms = Restroom.search(params[:search]) 
-     if @restrooms.empty?
-      render 'index'
-     else 
-       render 'search'
-     end 
+     #add validations for search form 
+    @restrooms = Restroom.search(params[:search])
   end 
   
   private
