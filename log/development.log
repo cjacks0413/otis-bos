@@ -10537,3 +10537,413 @@ Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:25:0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:25:09 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:30:29 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "restrooms" WHERE (zip LIKE '%02166%')
+  [1m[36mRestroom Load (0.2ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')[0m
+  Rendered restrooms/search.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:30:29 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:30:29 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:30:29 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:30:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:30:29 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:30:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:30:29 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:30:29 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:30:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:30:29 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:31:17 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "restrooms" WHERE (zip LIKE '%02166%')
+  [1m[36mRestroom Load (0.2ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')[0m
+  Rendered restrooms/search.html.erb within layouts/application (19.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 34ms (Views: 26.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:31:17 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:31:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:31:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:31:17 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:31:17 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:31:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:31:17 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:31:17 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:31:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:31:17 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:34:24 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "restrooms" WHERE (zip LIKE '%02166%')
+  [1m[36mRestroom Load (0.3ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')[0m
+  Rendered restrooms/search.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 1698ms (Views: 1696.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:34:25 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:34:25 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:34:25 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:34:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:25 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:25 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:25 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:34:27 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "restrooms" WHERE (zip LIKE '%02166%')
+  [1m[36mRestroom Load (0.2ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')[0m
+  Rendered restrooms/search.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:34:27 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:34:27 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:27 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:34:27 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:27 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:34:27 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:27 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:27 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:27 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:34:44 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "restrooms" WHERE (zip LIKE '%02166%')
+  [1m[36mRestroom Load (0.2ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')[0m
+  Rendered restrooms/search.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 793ms (Views: 791.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:34:45 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:34:45 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:34:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:45 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:34:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:45 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:45 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:34:45 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:35:20 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "restrooms" WHERE (zip LIKE '%02166%')
+  [1m[36mRestroom Load (0.1ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')[0m
+  Rendered restrooms/search.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 778ms (Views: 775.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:35:21 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:35:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:35:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:35:21 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:35:21 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:35:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:35:21 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:35:21 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:35:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:35:21 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:36:41 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "restrooms" WHERE (zip LIKE '%02166%')
+  [1m[36mRestroom Load (0.2ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')[0m
+  Rendered restrooms/search.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:36:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:41 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:36:41 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:36:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:36:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:41 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:41 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:41 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:36:44 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "restrooms" WHERE (zip LIKE '%02166%')
+  [1m[36mRestroom Load (0.2ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')[0m
+  Rendered restrooms/search.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:36:44 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:36:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:44 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:36:44 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:36:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:44 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:44 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:44 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:36:56 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "restrooms" WHERE (zip LIKE '%02166%')
+  [1m[36mRestroom Load (0.1ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')[0m
+  Rendered restrooms/search.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 944ms (Views: 942.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:36:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:56 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:36:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:57 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:36:57 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:36:57 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:57 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:57 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:36:57 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=02166&commit=Search" for 127.0.0.1 at 2013-08-15 11:37:04 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"02166", "commit"=>"Search"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "restrooms" WHERE (zip LIKE '%02166%')
+  [1m[36mRestroom Load (0.3ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%02166%')[0m
+  Rendered restrooms/search.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 805ms (Views: 803.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-15 11:37:05 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-15 11:37:05 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 11:37:05 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-15 11:37:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 11:37:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 11:37:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-15 11:37:05 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-15 11:37:05 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-15 11:37:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 11:37:05 -0400

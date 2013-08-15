@@ -1,13 +1,17 @@
-<h1>Restrooms near <%= @zip %> </h1> 
+<h1>Restrooms near <%= @params %> </h1> 
 
-<ul class="span4">
+<ul class="span4" id="search_results">
 <% @restrooms.each do |r| %>
 <li>
-  <%= r.name %> 
-  <%= r.line1 %>  
-  <%= r.city %>, 
-  <%= r.state%>, 
-  <%= r.zip %> 
+  <div class="restroom_name">
+    <%= r.name %> 
+  </div>
+  <div class="restroom_info">
+	<%= r.line1 %>  
+	<%= r.city %>, 
+	<%= r.state%>, 
+	<%= r.zip %> 
+  </div>
 </li> 
 <% end %>
 </ul>

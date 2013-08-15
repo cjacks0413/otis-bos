@@ -82,7 +82,16 @@ header {
   }  
 } 
 
-/* Error Messages */
+/* error messages */
 #error_explanation {
   color: #f00; 
+}
+
+/* search */ 
+#search_results {
+  padding-top: 20px; 
+  padding-bottom: 30px; 
+  .restroom_name {
+    font-weight: bold;
+  }
 }

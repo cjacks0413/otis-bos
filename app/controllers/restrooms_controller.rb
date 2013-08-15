@@ -21,7 +21,7 @@ class RestroomsController < ApplicationController
   end
   
   def search
-    @zip = params[:search] 
+    @params = params[:search] 
     @restrooms = Restroom.search(params[:search]) 
      if @restrooms.empty?
       render 'index'
