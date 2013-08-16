@@ -1,41 +1,42 @@
-# BPR: Boston Public Restrooms 
+= BPR: Boston Public Restrooms
 
-## Purpose
+<em>A web application to locate free public restrooms in the Boston area.</em> 
+
+= Description 
 If you have ever make your way to the lovely city of Boston, you may want to walk 
 the freedom trail, go to the North End/Mike's Pastry, or do all sorts of other fun, outdoors
 things. You will find, however, that Boston's Public Restrooms are far and few between. 
 Sometimes, even after making a purchase, a shop simply does not have a restroom open to the
 public. 
 
-### Why risk it? Head over to BPR, type in your zip code or neighborhood, and see 
+Why risk it? Head over to BPR, type in your zip code or neighborhood, and see 
 a list of all of the nearest restrooms. Sign up to rate, review, and add restrooms of 
 your own. Never be stranded again! 
 
-## Features
+== Features
 
-### Implemented: 
+Implemented: 
 	
-	Front-end Bootstrap Framework
+* Front-end Bootstrap Framework
 
-	Custom search of Restrooms (zip only for now) 
+* Custom search of Restrooms (zip only for now) 
 	
-	Add Restroom to database 
+* Add Restroom to database 
   
 
-### To be implemented: 
+To be implemented: 
 
-	User login 
+* User login 
 
-	Rating and Reviewing restrooms
+* Rating and Reviewing restrooms
 
-	Custom search of Restrooms with neighborhood
+* Custom search of Restrooms with neighborhood
 	
-	Check directions with Google Maps
+* Check directions with Google Maps
 	
-	Map of all Restrooms in Boston 
+* Map of all Restrooms in Boston 
 
 
-Running on Rails 4, Ruby version 2.0.0   
-
+<em>Running on Rails 4, Ruby version 2.0.0</em>  
 
 
