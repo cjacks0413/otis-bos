@@ -1,25 +1,41 @@
-== README
+# BPR: Boston Public Restrooms 
 
-BPR: Boston Public Restrooms. 
+## Purpose
+If you have ever make your way to the lovely city of Boston, you may want to walk 
+the freedom trail, go to the North End/Mike's Pastry, or do all sorts of other fun, outdoors
+things. You will find, however, that Boston's Public Restrooms are far and few between. 
+Sometimes, even after making a purchase, a shop simply does not have a restroom open to the
+public. 
 
-* Ruby version 2.0.0 
+### Why risk it? Head over to BPR, type in your zip code or neighborhood, and see 
+a list of all of the nearest restrooms. Sign up to rate, review, and add restrooms of 
+your own. Never be stranded again! 
 
-* System dependencies
+## Features
 
-* Configuration
+### Implemented: 
+	
+	Front-end Bootstrap Framework
 
-* Database creation
+	Custom search of Restrooms (zip only for now) 
+	
+	Add Restroom to database 
+  
 
-* Database initialization
+### To be implemented: 
 
-* How to run the test suite
+	User login 
 
-* Services (job queues, cache servers, search engines, etc.)
+	Rating and Reviewing restrooms
 
-* Deployment instructions
+	Custom search of Restrooms with neighborhood
+	
+	Check directions with Google Maps
+	
+	Map of all Restrooms in Boston 
 
-* ...
+
+Running on Rails 4, Ruby version 2.0.0   
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
