@@ -36,7 +36,9 @@ To be implemented:
 	
 * Map of all Restrooms in Boston 
 
+=== Notes
 
+* local database not synced with heroku app 
 <em>Running on Rails 4, Ruby version 2.0.0</em>  
 
 
