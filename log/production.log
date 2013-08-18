@@ -387,3 +387,66 @@ ActionView::Template::Error (SQLite3::SQLException: no such table: restrooms: SE
   app/views/restrooms/index.html.erb:5:in `_app_views_restrooms_index_html_erb___4215801466401374294_70231012021820'
 
 
+I, [2013-08-18T13:56:38.134571 #6330]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-18 13:56:38 -0400
+I, [2013-08-18T13:56:38.143806 #6330]  INFO -- : Processing by StaticPagesController#home as HTML
+I, [2013-08-18T13:56:38.165902 #6330]  INFO -- :   Rendered shared/_search_form.html.erb (1.0ms)
+I, [2013-08-18T13:56:38.166190 #6330]  INFO -- :   Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+I, [2013-08-18T13:56:38.185328 #6330]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+I, [2013-08-18T13:56:38.186794 #6330]  INFO -- :   Rendered layouts/_footer.html.erb (0.6ms)
+I, [2013-08-18T13:56:38.187186 #6330]  INFO -- : Completed 200 OK in 43ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+I, [2013-08-18T13:56:38.201155 #6330]  INFO -- : Started GET "/assets/application-9464154e08ab1f785357da5a188cf8d5.css" for 127.0.0.1 at 2013-08-18 13:56:38 -0400
+I, [2013-08-18T13:56:38.247687 #6330]  INFO -- : Started GET "/assets/application-a9d1ad8b03b4f1265dfddf828af37bba.js" for 127.0.0.1 at 2013-08-18 13:56:38 -0400
+I, [2013-08-18T13:56:39.625855 #6330]  INFO -- : Started GET "/search?utf8=%E2%9C%93&search=&commit=Search" for 127.0.0.1 at 2013-08-18 13:56:39 -0400
+I, [2013-08-18T13:56:39.627837 #6330]  INFO -- : Processing by RestroomsController#search as HTML
+I, [2013-08-18T13:56:39.627978 #6330]  INFO -- :   Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Search"}
+E, [2013-08-18T13:56:39.634357 #6330] ERROR -- : SQLite3::SQLException: no such table: restrooms: SELECT "restrooms".* FROM "restrooms"  WHERE (zip LIKE '%%')
+I, [2013-08-18T13:56:39.635324 #6330]  INFO -- :   Rendered restrooms/search.html.erb within layouts/application (2.8ms)
+I, [2013-08-18T13:56:39.635597 #6330]  INFO -- : Completed 500 Internal Server Error in 7ms
+F, [2013-08-18T13:56:39.637705 #6330] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: restrooms: SELECT "restrooms".* FROM "restrooms"  WHERE (zip LIKE '%%')):
+    3: <h1>Restrooms near <%= @params %> </h1> 
+    4: 
+    5: <ul class="span4" id="search_results">
+    6: <% @restrooms.each do |r| %>
+    7: <li>
+    8:   <div class="restroom_name">
+    9:     <%= r.name %> 
+  app/views/restrooms/search.html.erb:6:in `_app_views_restrooms_search_html_erb__1803111430797381124_70219134549700'
+
+
+I, [2013-08-18T14:03:01.726591 #6511]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-18 14:03:01 -0400
+I, [2013-08-18T14:03:01.738567 #6511]  INFO -- : Processing by StaticPagesController#home as HTML
+I, [2013-08-18T14:03:01.764204 #6511]  INFO -- :   Rendered shared/_search_form.html.erb (1.0ms)
+I, [2013-08-18T14:03:01.764471 #6511]  INFO -- :   Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+I, [2013-08-18T14:03:01.782252 #6511]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+I, [2013-08-18T14:03:01.783751 #6511]  INFO -- :   Rendered layouts/_footer.html.erb (0.6ms)
+I, [2013-08-18T14:03:01.784100 #6511]  INFO -- : Completed 200 OK in 45ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+I, [2013-08-18T14:03:01.800783 #6511]  INFO -- : Started GET "/assets/application-9464154e08ab1f785357da5a188cf8d5.css" for 127.0.0.1 at 2013-08-18 14:03:01 -0400
+I, [2013-08-18T14:03:01.840807 #6511]  INFO -- : Started GET "/assets/application-a9d1ad8b03b4f1265dfddf828af37bba.js" for 127.0.0.1 at 2013-08-18 14:03:01 -0400
+I, [2013-08-18T14:03:06.983106 #6511]  INFO -- : Started GET "/search?utf8=%E2%9C%93&search=&commit=Search" for 127.0.0.1 at 2013-08-18 14:03:06 -0400
+I, [2013-08-18T14:03:06.985447 #6511]  INFO -- : Processing by RestroomsController#search as HTML
+I, [2013-08-18T14:03:06.985596 #6511]  INFO -- :   Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Search"}
+E, [2013-08-18T14:03:06.991940 #6511] ERROR -- : SQLite3::SQLException: no such table: restrooms: SELECT "restrooms".* FROM "restrooms"  WHERE (zip LIKE '%%')
+I, [2013-08-18T14:03:06.992719 #6511]  INFO -- :   Rendered restrooms/search.html.erb within layouts/application (3.3ms)
+I, [2013-08-18T14:03:06.992900 #6511]  INFO -- : Completed 500 Internal Server Error in 7ms
+F, [2013-08-18T14:03:06.994839 #6511] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: restrooms: SELECT "restrooms".* FROM "restrooms"  WHERE (zip LIKE '%%')):
+    3: <h1>Restrooms near <%= @params %> </h1> 
+    4: 
+    5: <ul class="span4" id="search_results">
+    6: <% @restrooms.each do |r| %>
+    7: <li>
+    8:   <div class="restroom_name">
+    9:     <%= r.name %> 
+  app/views/restrooms/search.html.erb:6:in `_app_views_restrooms_search_html_erb___3122986211671541860_70118810323640'
+
+
+I, [2013-08-18T14:05:25.917164 #6563]  INFO -- : Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-18 14:05:25 -0400
+I, [2013-08-18T14:05:25.926584 #6563]  INFO -- : Processing by RestroomsController#show as HTML
+I, [2013-08-18T14:05:25.926669 #6563]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2013-08-18T14:05:25.945990 #6563]  INFO -- : Completed 500 Internal Server Error in 19ms
+F, [2013-08-18T14:05:25.947866 #6563] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'restrooms'):
+  app/controllers/restrooms_controller.rb:20:in `show'
+
+
