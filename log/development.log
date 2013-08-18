@@ -12342,3 +12342,96 @@ Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-18 14:18:3
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-18 14:18:33 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-18 14:31:55 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.9ms)
+  Rendered static_pages/home.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 105ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-18 14:31:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-18 14:31:55 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-18 14:31:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-18 14:31:55 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-18 14:31:55 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-18 14:31:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-18 14:31:55 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-18 14:31:55 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-18 14:31:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-18 14:31:55 -0400
+
+
+Started GET "/restrooms/new" for 127.0.0.1 at 2013-08-18 14:31:56 -0400
+Processing by RestroomsController#new as HTML
+  Rendered shared/_error_messages.html.erb (2.4ms)
+  Rendered restrooms/new.html.erb within layouts/application (339.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 380ms (Views: 374.4ms | ActiveRecord: 0.3ms)
+  [1m[36mRestroom Last ID (0.1ms)[0m  [1mSELECT id FROM "restrooms" ORDER BY id DESC[0m
+  [1m[36mRestroom Last ID (0.2ms)[0m  [1mSELECT id FROM "restrooms" ORDER BY id DESC[0m
+  [1m[36mRestroom Last ID (0.1ms)[0m  [1mSELECT id FROM "restrooms" ORDER BY id DESC[0m
+  [1m[35mRestroom Populate (78.8ms)[0m  INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (4, 'Marietta Reilly', '5052 Veum Lock', NULL, 'Littelport', 'RI', '43936-7196', '2013-08-18 18:37:40.877256', '2013-08-18 18:37:40.877258'), (5, 'Miss Pablo Ondricka', '14230 Rowe Center', NULL, 'Port Charlesfurt', 'NJ', '31435-7477', '2013-08-18 18:37:41.048482', '2013-08-18 18:37:41.048485'), (6, 'Dr. Berta Bashirian', '9890 Haylee Plains', NULL, 'Oberbrunnerburgh', 'AA', '89663', '2013-08-18 18:37:41.048941', '2013-08-18 18:37:41.048945'), (7, 'Hazel Mante', '3445 Joel Well', NULL, 'Mattieburgh', 'NJ', '92244-6231', '2013-08-18 18:37:41.049318', '2013-08-18 18:37:41.049319'), (8, 'Kaylin Rosenbaum', '61688 Satterfield Shore', NULL, 'Fidelstad', 'WA', '84339-2313', '2013-08-18 18:37:41.049679', '2013-08-18 18:37:41.049680'), (9, 'Mrs. Hattie Russel', '50583 Lexie Bypass', NULL, 'Mortimerton', 'WV', '64824', '2013-08-18 18:37:41.050035', '2013-08-18 18:37:41.050036'), (10, 'Dr. Joany Frami', '153 Schowalter Station', NULL, 'Port Mireyaberg', 'IL', '30566-8960', '2013-08-18 18:37:41.050405', '2013-08-18 18:37:41.050406'), (11, 'Flo Parisian I', '5920 Javonte Common', NULL, 'South Talia', 'NV', '92634', '2013-08-18 18:37:41.050797', '2013-08-18 18:37:41.050798'), (12, 'Dr. Omer Gutmann', '39408 Jamel Loop', NULL, 'East Carlie', 'MO', '47509', '2013-08-18 18:37:41.051256', '2013-08-18 18:37:41.051257'), (13, 'Davion Mueller', '72028 Cyril Divide', NULL, 'Abbottberg', 'IA', '64659-5831', '2013-08-18 18:37:41.051612', '2013-08-18 18:37:41.051613'), (14, 'Dr. Henderson Bernier', '8286 Hailey Grove', NULL, 'Port Bianka', 'AE', '14118-8854', '2013-08-18 18:37:41.051969', '2013-08-18 18:37:41.051970'), (15, 'Mrs. Alex Weissnat', '8441 Ignacio Harbor', NULL, 'Tyreeberg', 'CT', '29544-7833', '2013-08-18 18:37:41.052341', '2013-08-18 18:37:41.052342'), (16, 'Richard Bednar', '9431 Koss Common', NULL, 'New Gaetano', 'AP', '51793', '2013-08-18 18:37:41.052719', '2013-08-18 18:37:41.052721'), (17, 'Catalina Kulas I', '17556 Reuben Alley', NULL, 'New Efrenview', 'MO', '21943', '2013-08-18 18:37:41.053069', '2013-08-18 18:37:41.053070'), (18, 'Frederik Considine', '7553 Sawayn Park', NULL, 'Stantonborough', 'GU', '46959', '2013-08-18 18:37:41.053455', '2013-08-18 18:37:41.053456'), (19, 'Brice Lemke', '7088 German Shore', NULL, 'New Garrickfort', 'MD', '75388-8939', '2013-08-18 18:37:41.053804', '2013-08-18 18:37:41.053805'), (20, 'Santos Conn', '7921 Adele Gardens', NULL, 'Gorczanymouth', 'ME', '65752', '2013-08-18 18:37:41.054204', '2013-08-18 18:37:41.054205'), (21, 'Adell VonRueden DVM', '16398 Durgan Place', NULL, 'New Stefaniefort', 'HI', '45353-1627', '2013-08-18 18:37:41.054566', '2013-08-18 18:37:41.054567'), (22, 'Matteo Jewess', '92592 Emilia Rapid', NULL, 'Freedafort', 'NV', '79288-8886', '2013-08-18 18:37:41.054960', '2013-08-18 18:37:41.054961'), (23, 'Franco Boyle Sr.', '67445 Arlene Canyon', NULL, 'South Stuartmouth', 'MS', '48751', '2013-08-18 18:37:41.055315', '2013-08-18 18:37:41.055316'), (24, 'Lance Swift', '80169 Santina Estates', NULL, 'Port Hershelstad', 'VI', '99887', '2013-08-18 18:37:41.055731', '2013-08-18 18:37:41.055732'), (25, 'Miss Kelley Heller', '3090 Blanda Walk', NULL, 'Padberghaven', 'OH', '34393-0546', '2013-08-18 18:37:41.056124', '2013-08-18 18:37:41.056125'), (26, 'Andy Ledner IV', '90181 Chance Manor', NULL, 'North Kane', 'AA', '71461', '2013-08-18 18:37:41.056484', '2013-08-18 18:37:41.056485'), (27, 'Mr. Zola Auer', '58748 Keeling Village', NULL, 'Clarissachester', 'DE', '24872', '2013-08-18 18:37:41.056853', '2013-08-18 18:37:41.056855'), (28, 'Donavon Christiansen', '618 Stehr Prairie', NULL, 'McDermottstad', 'IA', '20788', '2013-08-18 18:37:41.057730', '2013-08-18 18:37:41.057732'), (29, 'Maudie Heller', '1699 Janis Mill', NULL, 'Johnstonstad', 'MO', '62797', '2013-08-18 18:37:41.058107', '2013-08-18 18:37:41.058108'), (30, 'Angelica Schinner', '533 Powlowski Ports', NULL, 'Kerlukeborough', 'SD', '38040-7855', '2013-08-18 18:37:41.058472', '2013-08-18 18:37:41.058473'), (31, 'Noelia Ebert', '657 Parisian Loop', NULL, 'Schimmeltown', 'FM', '98200', '2013-08-18 18:37:41.058824', '2013-08-18 18:37:41.058825'), (32, 'Maritza Gleason', '22583 Johnston Glens', NULL, 'Wolfbury', 'TX', '99114-7307', '2013-08-18 18:37:41.059170', '2013-08-18 18:37:41.059171'), (33, 'Barbara Sauer', '64661 Hayley Cape', NULL, 'East Steviefurt', 'CA', '13555-5262', '2013-08-18 18:37:41.059528', '2013-08-18 18:37:41.059529'), (34, 'Juvenal Lynch', '3303 Hackett Ranch', NULL, 'Trishaland', 'IN', '18249-8787', '2013-08-18 18:37:41.059902', '2013-08-18 18:37:41.059903'), (35, 'Dovie O''Conner', '217 Morar Estate', NULL, 'Elianton', 'MH', '44400-7667', '2013-08-18 18:37:41.060269', '2013-08-18 18:37:41.060272'), (36, 'Keeley Pacocha', '91176 Cruickshank Circle', NULL, 'New Rey', 'NM', '89391', '2013-08-18 18:37:41.060630', '2013-08-18 18:37:41.060631'), (37, 'Mrs. Tanya Aufderhar', '345 Jordi Forges', NULL, 'Bechtelarview', 'CT', '81870', '2013-08-18 18:37:41.060994', '2013-08-18 18:37:41.060995'), (38, 'Mack Vandervort', '9696 Keith Branch', NULL, 'West Dinachester', 'AE', '99323-5280', '2013-08-18 18:37:41.061403', '2013-08-18 18:37:41.061404'), (39, 'Rasheed Deckow', '48348 Haley Crest', NULL, 'Durwardside', 'AP', '12456-8272', '2013-08-18 18:37:41.061778', '2013-08-18 18:37:41.061779'), (40, 'Mrs. Delia Spinka', '4736 Schultz Underpass', NULL, 'North Delaneyfurt', 'OR', '73805-9252', '2013-08-18 18:37:41.062133', '2013-08-18 18:37:41.062134'), (41, 'Jan Hagenes', '4669 Kiley Drive', NULL, 'South Alexandreamouth', 'FL', '12486', '2013-08-18 18:37:41.062566', '2013-08-18 18:37:41.062567'), (42, 'Maria Gleason III', '80224 Neil Harbors', NULL, 'Lake Tinaton', 'OK', '55229-2307', '2013-08-18 18:37:41.062937', '2013-08-18 18:37:41.062938'), (43, 'Katherine Heaney V', '8333 Angus Club', NULL, 'Brownmouth', 'CA', '46879-8509', '2013-08-18 18:37:41.063352', '2013-08-18 18:37:41.063353'), (44, 'Ms. Darryl Aufderhar', '443 Gerlach Track', NULL, 'Lelandberg', 'NM', '62522', '2013-08-18 18:37:41.063758', '2013-08-18 18:37:41.063759'), (45, 'Mr. Ayden Beier', '7470 Trantow Prairie', NULL, 'Kuvalisside', 'AS', '93454-8565', '2013-08-18 18:37:41.064151', '2013-08-18 18:37:41.064152'), (46, 'Dr. Kiarra Kihn', '1023 Schuppe Bridge', NULL, 'Lake Tremaine', 'NH', '87070', '2013-08-18 18:37:41.064540', '2013-08-18 18:37:41.064541'), (47, 'Tessie Huels', '3312 Freda Glens', NULL, 'East Shaynetown', 'DE', '98928', '2013-08-18 18:37:41.064909', '2013-08-18 18:37:41.064910'), (48, 'Mrs. Nathaniel Anderson', '26433 Camron Streets', NULL, 'Hilllburgh', 'KY', '98414', '2013-08-18 18:37:41.065275', '2013-08-18 18:37:41.065276'), (49, 'Miss Tremaine Bashirian', '33243 Kuhn Ranch', NULL, 'Port Roslyn', 'VA', '89086-1208', '2013-08-18 18:37:41.065627', '2013-08-18 18:37:41.065628'), (50, 'Hannah Rodriguez', '6281 Stephon Neck', NULL, 'Lake Leonora', 'FM', '47946', '2013-08-18 18:37:41.066001', '2013-08-18 18:37:41.066002'), (51, 'Taya Bergnaum', '5987 Alberta Radial', NULL, 'Gordonfort', 'VT', '60280-0666', '2013-08-18 18:37:41.066349', '2013-08-18 18:37:41.066350'), (52, 'Johan Klein', '83205 Katrine Wells', NULL, 'North Princesshaven', 'OR', '37429', '2013-08-18 18:37:41.066701', '2013-08-18 18:37:41.066702'), (53, 'Everette Kuphal III', '6069 Waelchi Row', NULL, 'Casperfort', 'MS', '53066-8174', '2013-08-18 18:37:41.067070', '2013-08-18 18:37:41.067071'), (54, 'Izaiah Bechtelar', '6195 Buckridge Ridge', NULL, 'Denesikport', 'PR', '54343', '2013-08-18 18:37:41.067470', '2013-08-18 18:37:41.067471'), (55, 'Mable Welch', '3785 Billie Locks', NULL, 'Eduardomouth', 'NV', '54966-8066', '2013-08-18 18:37:41.067817', '2013-08-18 18:37:41.067818'), (56, 'Greta Daniel', '430 Mayert Fork', NULL, 'Erdmanfort', 'IL', '54538-6812', '2013-08-18 18:37:41.068169', '2013-08-18 18:37:41.068170'), (57, 'Raphaelle Jacobs', '23583 Kovacek Fords', NULL, 'Daxport', 'NM', '94684-7201', '2013-08-18 18:37:41.068522', '2013-08-18 18:37:41.068523'), (58, 'Troy Hermann Jr.', '1674 Elmo Pines', NULL, 'Gavinton', 'DE', '58860-3198', '2013-08-18 18:37:41.068877', '2013-08-18 18:37:41.068878'), (59, 'Neha Spinka II', '639 Trevor Garden', NULL, 'Eldaport', 'PA', '61371', '2013-08-18 18:37:41.069250', '2013-08-18 18:37:41.069251'), (60, 'Oren Schamberger', '582 Rutherford Mountains', NULL, 'South Elliotfurt', 'MI', '17703', '2013-08-18 18:37:41.069604', '2013-08-18 18:37:41.069605'), (61, 'Katelyn Anderson DDS', '392 Gutkowski Parkways', NULL, 'Danafurt', 'PW', '39493-2484', '2013-08-18 18:37:41.069972', '2013-08-18 18:37:41.069973'), (62, 'Jevon Rau IV', '5927 Padberg Courts', NULL, 'Lake Ronnyland', 'MT', '25412-6949', '2013-08-18 18:37:41.070346', '2013-08-18 18:37:41.070347'), (63, 'Amina Kemmer', '32898 Walter Crossing', NULL, 'South Brendonport', 'DC', '26400', '2013-08-18 18:37:41.070736', '2013-08-18 18:37:41.070737'), (64, 'Mrs. Bruce D''Amore', '342 Farrell Motorway', NULL, 'Donnellfurt', 'ND', '30002', '2013-08-18 18:37:41.071119', '2013-08-18 18:37:41.071121'), (65, 'Christopher Schmidt', '1522 Stiedemann Throughway', NULL, 'Hahnstad', 'AA', '21562', '2013-08-18 18:37:41.071516', '2013-08-18 18:37:41.071517'), (66, 'Jameson Sporer', '9792 Lucius Ridges', NULL, 'Windlerchester', 'MI', '61487', '2013-08-18 18:37:41.071879', '2013-08-18 18:37:41.071881'), (67, 'Mr. Gerson Fadel', '63246 Benton Green', NULL, 'Port Jaredport', 'MS', '77772-9934', '2013-08-18 18:37:41.072426', '2013-08-18 18:37:41.072427'), (68, 'Quentin Stokes', '74589 Haley Ferry', NULL, 'North Bereniceland', 'SD', '47481-6507', '2013-08-18 18:37:41.072822', '2013-08-18 18:37:41.072823'), (69, 'Gerry Nitzsche', '3584 Alec Summit', NULL, 'Doyleview', 'WA', '96786-9422', '2013-08-18 18:37:41.073196', '2013-08-18 18:37:41.073198'), (70, 'Mr. Nickolas Barrows', '8905 Tamara Tunnel', NULL, 'Prosaccoberg', 'DE', '59054', '2013-08-18 18:37:41.073548', '2013-08-18 18:37:41.073549'), (71, 'Jocelyn Abbott', '4493 Purdy Hill', NULL, 'Swiftmouth', 'WA', '21521', '2013-08-18 18:37:41.073945', '2013-08-18 18:37:41.073947'), (72, 'Armand Stanton II', '54328 Rachel Square', NULL, 'Port Corybury', 'ME', '36315-7775', '2013-08-18 18:37:41.074277', '2013-08-18 18:37:41.074278'), (73, 'Jalon Stiedemann', '14951 Kelsie Locks', NULL, 'Port Earnestine', 'UT', '33963', '2013-08-18 18:37:41.074669', '2013-08-18 18:37:41.074671'), (74, 'Alba Stehr', '647 Heathcote Mount', NULL, 'South Dandreborough', 'KS', '40069-7925', '2013-08-18 18:37:41.075215', '2013-08-18 18:37:41.075217'), (75, 'Mrs. Granville Lang', '17689 Florine Village', NULL, 'Jacquelynton', 'MH', '44345-1247', '2013-08-18 18:37:41.075710', '2013-08-18 18:37:41.075712'), (76, 'Fern Watsica', '79503 Terry Crossing', NULL, 'Port Jena', 'NV', '41761', '2013-08-18 18:37:41.076091', '2013-08-18 18:37:41.076092'), (77, 'Lee Turcotte', '7254 Imelda Greens', NULL, 'Welchberg', 'IN', '84619', '2013-08-18 18:37:41.076444', '2013-08-18 18:37:41.076445'), (78, 'Grant Rice', '3172 Kendra Parkway', NULL, 'Port Kendrick', 'MT', '45793', '2013-08-18 18:37:41.076796', '2013-08-18 18:37:41.076797'), (79, 'Dr. Naomie Hodkiewicz', '591 Felicia View', NULL, 'New Linnie', 'AP', '60791', '2013-08-18 18:37:41.077149', '2013-08-18 18:37:41.077150'), (80, 'Duane Bauch', '150 Tamara Isle', NULL, 'Lake Benton', 'MS', '18763', '2013-08-18 18:37:41.078018', '2013-08-18 18:37:41.078019'), (81, 'Cordie Keebler', '50993 Katlyn Row', NULL, 'North Jaron', 'ID', '94495-8217', '2013-08-18 18:37:41.078367', '2013-08-18 18:37:41.078368'), (82, 'Kamren Wiegand I', '46658 Tamia Mill', NULL, 'Dickinsonton', 'CO', '53929', '2013-08-18 18:37:41.078705', '2013-08-18 18:37:41.078706'), (83, 'Cecelia Huel Sr.', '6101 Fabiola Parks', NULL, 'South Haylieville', 'AK', '94964-8964', '2013-08-18 18:37:41.079076', '2013-08-18 18:37:41.079077'), (84, 'Rowland Turner', '586 Ellis Neck', NULL, 'East Karl', 'AS', '85874-9771', '2013-08-18 18:37:41.079473', '2013-08-18 18:37:41.079474'), (85, 'Mrs. Paul Grady', '42805 Kling Way', NULL, 'North Eliseo', 'PR', '59189', '2013-08-18 18:37:41.079825', '2013-08-18 18:37:41.079826'), (86, 'Milan Kovacek PhD', '77028 Madge Falls', NULL, 'Port Earlinefort', 'GU', '65297', '2013-08-18 18:37:41.080198', '2013-08-18 18:37:41.080199'), (87, 'Dr. Irving Conroy', '6333 Kobe Neck', NULL, 'Wavamouth', 'HI', '32017', '2013-08-18 18:37:41.080588', '2013-08-18 18:37:41.080589'), (88, 'Sierra Connelly', '6875 VonRueden Well', NULL, 'New Finn', 'VA', '24099', '2013-08-18 18:37:41.080954', '2013-08-18 18:37:41.080955'), (89, 'Janie Klein I', '86915 Hal Route', NULL, 'Abigaylemouth', 'ID', '20197', '2013-08-18 18:37:41.081322', '2013-08-18 18:37:41.081326'), (90, 'Celestino Simonis', '476 Rutherford Gardens', NULL, 'Reichelborough', 'TX', '26705-2042', '2013-08-18 18:37:41.081697', '2013-08-18 18:37:41.081698'), (91, 'Ms. Aracely Kerluke', '419 Gusikowski Lane', NULL, 'North Bobbystad', 'WA', '49104-1714', '2013-08-18 18:37:41.082051', '2013-08-18 18:37:41.082052'), (92, 'Josiane Wunsch', '5212 Langosh Alley', NULL, 'North Eldonburgh', 'AZ', '17912-6389', '2013-08-18 18:37:41.082441', '2013-08-18 18:37:41.082442'), (93, 'August Lesch', '5190 Klocko Skyway', NULL, 'West Irwin', 'OR', '53279', '2013-08-18 18:37:41.082820', '2013-08-18 18:37:41.082821'), (94, 'Elfrieda Jones', '93198 Jacinthe Ramp', NULL, 'Henryview', 'DE', '88630-3302', '2013-08-18 18:37:41.083153', '2013-08-18 18:37:41.083154'), (95, 'Myron Klocko', '5755 Shaniya Ridge', NULL, 'West Anya', 'PR', '44786-6082', '2013-08-18 18:37:41.083531', '2013-08-18 18:37:41.083532'), (96, 'Marcos Cormier', '95861 Torp Hill', NULL, 'Cyrilview', 'LA', '44419', '2013-08-18 18:37:41.083903', '2013-08-18 18:37:41.083904'), (97, 'Martina Hyatt', '4412 Kristopher Lodge', NULL, 'North Caliview', 'NV', '94882', '2013-08-18 18:37:41.084254', '2013-08-18 18:37:41.084255'), (98, 'Alessandro Treutel', '856 Theodore Roads', NULL, 'Orenchester', 'MH', '10528-9684', '2013-08-18 18:37:41.084623', '2013-08-18 18:37:41.084624'), (99, 'Therese Walter', '536 Kihn Mews', NULL, 'Port Isobelview', 'SD', '65499', '2013-08-18 18:37:41.084975', '2013-08-18 18:37:41.084976'), (100, 'Dr. Rod Swift', '2047 Reva Glen', NULL, 'Lynchville', 'AL', '54833', '2013-08-18 18:37:41.085342', '2013-08-18 18:37:41.085344'), (101, 'Beth Wolf', '81962 Smith Hill', NULL, 'Claudiashire', 'VA', '57365', '2013-08-18 18:37:41.085714', '2013-08-18 18:37:41.085715'), (102, 'Ms. Nolan Green', '77374 Wiza Wells', NULL, 'New Francishaven', 'SC', '20535-3711', '2013-08-18 18:37:41.086065', '2013-08-18 18:37:41.086066'), (103, 'Caleb Parker', '768 Ezra Trail', NULL, 'Finnburgh', 'MD', '67580-0189', '2013-08-18 18:37:41.086459', '2013-08-18 18:37:41.086460')
+
+
+Started GET "/restrooms" for 127.0.0.1 at 2013-08-18 14:38:30 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RestroomsController#index as HTML
+  [1m[35mRestroom Load (0.5ms)[0m  SELECT "restrooms".* FROM "restrooms"
+  Rendered restrooms/index.html.erb within layouts/application (62.6ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 165ms (Views: 138.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-18 14:38:31 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-18 14:38:31 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-18 14:38:31 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-18 14:38:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-18 14:38:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-18 14:38:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-18 14:38:31 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-18 14:38:31 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-18 14:38:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-18 14:38:31 -0400
