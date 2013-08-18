@@ -343,3 +343,47 @@ ActionController::RoutingError (No route matches [GET] "/javascripts/application
   /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
 
 
+I, [2013-08-18T13:49:34.030091 #6099]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-18 13:49:34 -0400
+I, [2013-08-18T13:49:34.040737 #6099]  INFO -- : Processing by StaticPagesController#home as HTML
+I, [2013-08-18T13:49:34.064751 #6099]  INFO -- :   Rendered shared/_search_form.html.erb (1.2ms)
+I, [2013-08-18T13:49:34.065259 #6099]  INFO -- :   Rendered static_pages/home.html.erb within layouts/application (3.4ms)
+I, [2013-08-18T13:49:40.480903 #6099]  INFO -- :   Rendered layouts/_header.html.erb (1.3ms)
+I, [2013-08-18T13:49:40.482929 #6099]  INFO -- :   Rendered layouts/_footer.html.erb (0.9ms)
+I, [2013-08-18T13:49:40.483473 #6099]  INFO -- : Completed 200 OK in 6443ms (Views: 6423.4ms | ActiveRecord: 0.0ms)
+I, [2013-08-18T13:49:40.769004 #6099]  INFO -- : Started GET "/assets/application-9464154e08ab1f785357da5a188cf8d5.css" for 127.0.0.1 at 2013-08-18 13:49:40 -0400
+I, [2013-08-18T13:49:40.785944 #6099]  INFO -- : Started GET "/assets/application-a9d1ad8b03b4f1265dfddf828af37bba.js" for 127.0.0.1 at 2013-08-18 13:49:40 -0400
+I, [2013-08-18T13:49:43.161700 #6099]  INFO -- : Started GET "/search?utf8=%E2%9C%93&search=&commit=Search" for 127.0.0.1 at 2013-08-18 13:49:43 -0400
+I, [2013-08-18T13:49:43.164829 #6099]  INFO -- : Processing by RestroomsController#search as HTML
+I, [2013-08-18T13:49:43.164950 #6099]  INFO -- :   Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Search"}
+E, [2013-08-18T13:49:43.197700 #6099] ERROR -- : SQLite3::SQLException: no such table: restrooms: SELECT "restrooms".* FROM "restrooms"  WHERE (zip LIKE '%%')
+I, [2013-08-18T13:49:43.198995 #6099]  INFO -- :   Rendered restrooms/search.html.erb within layouts/application (5.1ms)
+I, [2013-08-18T13:49:43.199216 #6099]  INFO -- : Completed 500 Internal Server Error in 34ms
+F, [2013-08-18T13:49:43.201845 #6099] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: restrooms: SELECT "restrooms".* FROM "restrooms"  WHERE (zip LIKE '%%')):
+    3: <h1>Restrooms near <%= @params %> </h1> 
+    4: 
+    5: <ul class="span4" id="search_results">
+    6: <% @restrooms.each do |r| %>
+    7: <li>
+    8:   <div class="restroom_name">
+    9:     <%= r.name %> 
+  app/views/restrooms/search.html.erb:6:in `_app_views_restrooms_search_html_erb__1214291675361315720_70231011709780'
+
+
+I, [2013-08-18T13:49:54.648008 #6099]  INFO -- : Started GET "/restrooms/" for 127.0.0.1 at 2013-08-18 13:49:54 -0400
+I, [2013-08-18T13:49:54.650895 #6099]  INFO -- : Processing by RestroomsController#index as HTML
+E, [2013-08-18T13:49:54.672865 #6099] ERROR -- : SQLite3::SQLException: no such table: restrooms: SELECT "restrooms".* FROM "restrooms"
+I, [2013-08-18T13:49:54.674119 #6099]  INFO -- :   Rendered restrooms/index.html.erb within layouts/application (2.7ms)
+I, [2013-08-18T13:49:54.674395 #6099]  INFO -- : Completed 500 Internal Server Error in 23ms
+F, [2013-08-18T13:49:54.677341 #6099] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: restrooms: SELECT "restrooms".* FROM "restrooms"):
+    2: 
+    3: <h1> All Restrooms </h1> 
+    4: <ul class="span4" id="search_results">
+    5: <% @restrooms.each do |r| %>
+    6: <li>
+    7:   <div class="restroom_name">
+    8:     <%= r.name %> 
+  app/views/restrooms/index.html.erb:5:in `_app_views_restrooms_index_html_erb___4215801466401374294_70231012021820'
+
+
