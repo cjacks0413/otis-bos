@@ -12435,3 +12435,641 @@ Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-18 14:38:3
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-18 14:38:31 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-18 14:57:53 -0400
+
+PG::Error (could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (fe80::1) and accepting
+	TCP/IP connections on port 5432?
+):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `connect'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:542:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:53:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:792:in `current_version'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:800:in `needs_migration?'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__2032194295003823729__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-18 15:02:03 -0400
+
+PG::Error (could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (fe80::1) and accepting
+	TCP/IP connections on port 5432?
+):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `connect'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:542:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:53:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:792:in `current_version'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:800:in `needs_migration?'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__68248705227728892__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-18 15:09:15 -0400
+
+PG::Error (FATAL:  role "user" does not exist
+):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `connect'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:542:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:53:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:792:in `current_version'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:800:in `needs_migration?'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__4030470534024608399__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-18 15:14:48 -0400
+
+PG::Error (FATAL:  role "app_bpr" does not exist
+):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `connect'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:542:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:53:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:792:in `current_version'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:800:in `needs_migration?'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__3063894094150560773__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-18 15:21:52 -0400
+
+PG::Error (FATAL:  role "app_bpr" does not exist
+):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `connect'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:542:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:53:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:792:in `current_version'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:800:in `needs_migration?'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__3321560274312639826__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-18 15:23:44 -0400
+
+PG::Error (FATAL:  role "app_bpr" is not permitted to log in
+):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `connect'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:542:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:53:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:792:in `current_version'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:800:in `needs_migration?'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__782168292380112188__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-18 15:25:24 -0400
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__2903326338161676961__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.3ms)
+  [1m[36m (47.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (2.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateRestrooms (20130813144454)
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (39.3ms)[0m  [1mCREATE TABLE "restrooms" ("id" serial primary key, "name" character varying(255), "line1" character varying(255), "line2" character varying(255), "city" character varying(255), "state" character varying(255), "zip" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (16.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20130813144454"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-18 15:25:50 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.9ms)
+  Rendered static_pages/home.html.erb within layouts/application (56.8ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 535ms (Views: 494.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-18 15:25:51 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-18 15:25:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:51 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-18 15:25:51 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-18 15:25:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:51 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:51 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:51 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&search=&commit=Search" for 127.0.0.1 at 2013-08-18 15:25:52 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Search"}
+  [1m[35mRestroom Load (0.5ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%%')
+  Rendered restrooms/search.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 10.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-18 15:25:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:52 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-18 15:25:52 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-18 15:25:52 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-18 15:25:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:52 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:52 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:52 -0400
+
+
+Started GET "/restrooms" for 127.0.0.1 at 2013-08-18 15:25:56 -0400
+Processing by RestroomsController#index as HTML
+  [1m[36mRestroom Load (0.8ms)[0m  [1mSELECT "restrooms".* FROM "restrooms"[0m
+  Rendered restrooms/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 46ms (Views: 43.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-18 15:25:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:56 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-18 15:25:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:56 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-18 15:25:56 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-18 15:25:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:56 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:56 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-18 15:25:56 -0400
+  [1m[36mRestroom Last ID (22.4ms)[0m  [1mSELECT id FROM "restrooms" ORDER BY id DESC[0m
+  [1m[35mRestroom Populate (858.0ms)[0m  INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Jennie Armstrong Jr.', '867 Wilderman Gardens', NULL, 'South Robert', 'MI', '76527', '2013-08-18 19:36:52.070259', '2013-08-18 19:36:52.070262'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Roma Lynch', '160 Ed Prairie', NULL, 'South Eleanoratown', 'VA', '33605-3768', '2013-08-18 19:36:52.369165', '2013-08-18 19:36:52.369173'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Miss Marianna Morar', '98138 Stracke Tunnel', NULL, 'East Dominic', 'OR', '51524-4340', '2013-08-18 19:36:52.370004', '2013-08-18 19:36:52.370007'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Paris Stamm', '86736 Cicero Mill', NULL, 'DuBuqueside', 'PW', '51626', '2013-08-18 19:36:52.370756', '2013-08-18 19:36:52.370758'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Arnulfo Goyette II', '250 Torphy Wall', NULL, 'Haagport', 'VI', '83270-6981', '2013-08-18 19:36:52.371455', '2013-08-18 19:36:52.371457'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Dr. Isidro Dickens', '54819 Pascale Terrace', NULL, 'Pourosfort', 'MO', '39574', '2013-08-18 19:36:52.372185', '2013-08-18 19:36:52.372187'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Kyleigh Upton PhD', '13922 Genoveva Club', NULL, 'Klingtown', 'CT', '89801', '2013-08-18 19:36:52.373417', '2013-08-18 19:36:52.373421'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Della Mertz', '69276 Hartmann Place', NULL, 'Lake Freida', 'AS', '80730', '2013-08-18 19:36:52.374556', '2013-08-18 19:36:52.374560'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Coleman Anderson Sr.', '2354 Hessel Shoals', NULL, 'Luciomouth', 'GU', '65796-3091', '2013-08-18 19:36:52.375496', '2013-08-18 19:36:52.375499'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Janet Cruickshank', '27909 Jennifer Skyway', NULL, 'Bertramshire', 'AP', '39693-9028', '2013-08-18 19:36:52.376524', '2013-08-18 19:36:52.376528'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Jefferey Champlin I', '74162 Mayer Port', NULL, 'Vitofort', 'AR', '43914-1174', '2013-08-18 19:36:52.377411', '2013-08-18 19:36:52.377413'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Akeem Hand PhD', '666 O''Reilly Grove', NULL, 'Alvinafurt', 'MI', '71189-7419', '2013-08-18 19:36:52.378031', '2013-08-18 19:36:52.378033'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Keyshawn Medhurst', '123 Darrell Lakes', NULL, 'Candacefort', 'MT', '12727', '2013-08-18 19:36:52.378884', '2013-08-18 19:36:52.378887'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Erwin Conn', '1436 Cortez Burg', NULL, 'Port Gideon', 'OH', '22190-2269', '2013-08-18 19:36:52.379704', '2013-08-18 19:36:52.379707'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Jesse Baumbach', '10622 Rosario Mission', NULL, 'Conroyfort', 'AE', '55821', '2013-08-18 19:36:52.380246', '2013-08-18 19:36:52.380247'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Santina Ritchie', '81936 Solon Drive', NULL, 'East Troy', 'DC', '61694-8098', '2013-08-18 19:36:52.380643', '2013-08-18 19:36:52.380644'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Antonette Sipes', '778 Floy Expressway', NULL, 'Hammesshire', 'TX', '65362', '2013-08-18 19:36:52.381035', '2013-08-18 19:36:52.381037'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Matteo Grady', '8012 Rhoda Coves', NULL, 'New Rileyhaven', 'NV', '15666', '2013-08-18 19:36:52.381843', '2013-08-18 19:36:52.381847'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Pansy Wisozk MD', '83039 Jewess Shore', NULL, 'Port Yeseniaport', 'UT', '43072', '2013-08-18 19:36:52.382410', '2013-08-18 19:36:52.382412'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Ivory Hegmann IV', '14069 Spencer Skyway', NULL, 'Fayfurt', 'MH', '74667', '2013-08-18 19:36:52.382840', '2013-08-18 19:36:52.382842'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Opal Morar', '7699 Lera Point', NULL, 'South Fay', 'SC', '66046-6952', '2013-08-18 19:36:52.383246', '2013-08-18 19:36:52.383247'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Miss Myrna Wilkinson', '883 Althea Plaza', NULL, 'Port Antwonstad', 'DC', '25827-6548', '2013-08-18 19:36:52.384137', '2013-08-18 19:36:52.384138'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Dr. Naomie Boyle', '684 Streich Freeway', NULL, 'East Terrill', 'GU', '62358-8723', '2013-08-18 19:36:52.384586', '2013-08-18 19:36:52.384588'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Garrett Koss', '8216 West Plaza', NULL, 'New Jasonchester', 'NM', '76208-5388', '2013-08-18 19:36:52.385001', '2013-08-18 19:36:52.385019'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Mr. Adell Kohler', '924 Lora Loaf', NULL, 'Lake Doylefurt', 'WY', '45560-6842', '2013-08-18 19:36:52.385410', '2013-08-18 19:36:52.385411'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Eloisa Nader', '36515 Heaney Islands', NULL, 'East Sigrid', 'NV', '64252-0726', '2013-08-18 19:36:52.385871', '2013-08-18 19:36:52.385874'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Delia Botsford', '540 Royal Islands', NULL, 'Gorczanyside', 'AS', '68990', '2013-08-18 19:36:52.386303', '2013-08-18 19:36:52.386307'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Deondre Kuphal', '614 Abernathy Ville', NULL, 'Martinside', 'OR', '96887-3336', '2013-08-18 19:36:52.386710', '2013-08-18 19:36:52.386712'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Tiana Lindgren', '3633 Langworth Plaza', NULL, 'East Olivermouth', 'MO', '96380', '2013-08-18 19:36:52.387143', '2013-08-18 19:36:52.387144'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Mrs. Kaylie Prosacco', '84406 Wuckert Square', NULL, 'New Luigi', 'MS', '33027', '2013-08-18 19:36:52.387559', '2013-08-18 19:36:52.387560'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Theron Hand PhD', '48331 Leola Center', NULL, 'Port Maxie', 'PW', '33702-6620', '2013-08-18 19:36:52.388084', '2013-08-18 19:36:52.388087'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Edna Okuneva', '691 Marcel Estate', NULL, 'Alethashire', 'SC', '69525', '2013-08-18 19:36:52.388765', '2013-08-18 19:36:52.388768'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Finn Mertz II', '49844 Lily Shoals', NULL, 'Lylatown', 'MT', '19033', '2013-08-18 19:36:52.389451', '2013-08-18 19:36:52.389454'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Sonny Okuneva', '14558 Conner Drive', NULL, 'Hermanville', 'AA', '32474', '2013-08-18 19:36:52.390230', '2013-08-18 19:36:52.390233'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Athena McGlynn', '6004 Cory Inlet', NULL, 'Lianaland', 'IN', '17579', '2013-08-18 19:36:52.390823', '2013-08-18 19:36:52.390845'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Josiah Zemlak', '160 Lexi Mews', NULL, 'New Alfredoville', 'SD', '13171-3680', '2013-08-18 19:36:52.391343', '2013-08-18 19:36:52.391345'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Ms. Katlyn Lebsack', '407 Kassulke Bypass', NULL, 'Kesslerville', 'CT', '96175-7929', '2013-08-18 19:36:52.391806', '2013-08-18 19:36:52.391808'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Everett Batz', '780 Johns Harbor', NULL, 'Mauricioborough', 'CA', '86104', '2013-08-18 19:36:52.392517', '2013-08-18 19:36:52.392519'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Dolores Goodwin DVM', '57431 Buddy Burg', NULL, 'Marleeville', 'DE', '25404', '2013-08-18 19:36:52.393233', '2013-08-18 19:36:52.393236'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Kianna Kessler Jr.', '72181 Mayert Hollow', NULL, 'South Elouisebury', 'NV', '86657-9526', '2013-08-18 19:36:52.393959', '2013-08-18 19:36:52.393963'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Isadore Leuschke', '71326 Bergstrom Forest', NULL, 'Genevieveton', 'WV', '54132-9016', '2013-08-18 19:36:52.394702', '2013-08-18 19:36:52.394704'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Watson Wilderman', '27904 Wisozk Common', NULL, 'West Jarvis', 'LA', '48757', '2013-08-18 19:36:52.395429', '2013-08-18 19:36:52.395432'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Sim Hagenes', '9287 Keeling Loaf', NULL, 'Binsstad', 'CA', '75367', '2013-08-18 19:36:52.396057', '2013-08-18 19:36:52.396059'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Devonte Lesch', '204 Loraine Isle', NULL, 'Crookston', 'AZ', '74856', '2013-08-18 19:36:52.396432', '2013-08-18 19:36:52.396433'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Kailey Heathcote', '69204 Joshuah Tunnel', NULL, 'Lake Ericaport', 'UT', '67262', '2013-08-18 19:36:52.396842', '2013-08-18 19:36:52.396844'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Lance Herzog', '69098 Antwon Pass', NULL, 'Reichelfurt', 'IL', '96895-2011', '2013-08-18 19:36:52.397289', '2013-08-18 19:36:52.397291'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Jeremy Lebsack Sr.', '87037 Volkman Mission', NULL, 'South Rhettborough', 'PA', '56552', '2013-08-18 19:36:52.397834', '2013-08-18 19:36:52.397835'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Ken Effertz', '53849 Hipolito Haven', NULL, 'Port Craig', 'OK', '16250-4486', '2013-08-18 19:36:52.398259', '2013-08-18 19:36:52.398261'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Keshawn Doyle', '5243 Kuphal Roads', NULL, 'Port Kaylieshire', 'MN', '70549-8191', '2013-08-18 19:36:52.398633', '2013-08-18 19:36:52.398634'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Randall Jacobi', '2348 Ashley Mills', NULL, 'East Mikelside', 'MO', '85228-1668', '2013-08-18 19:36:52.399004', '2013-08-18 19:36:52.399005'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Talon Thompson', '720 Marvin Tunnel', NULL, 'Port Romaville', 'SC', '36349', '2013-08-18 19:36:52.399375', '2013-08-18 19:36:52.399376'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Josephine Quigley', '559 Jaime Extensions', NULL, 'New Whitneytown', 'IL', '56211-1305', '2013-08-18 19:36:52.399738', '2013-08-18 19:36:52.399739'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Scarlett Yost', '8422 Will Street', NULL, 'Labadiestad', 'SC', '19132', '2013-08-18 19:36:52.400185', '2013-08-18 19:36:52.400187'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Mervin Langworth', '938 Beer Points', NULL, 'East Johan', 'NJ', '28151-6199', '2013-08-18 19:36:52.400531', '2013-08-18 19:36:52.400532'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Mayra Dach', '405 Cindy Corners', NULL, 'Port Aricmouth', 'CA', '96142', '2013-08-18 19:36:52.400878', '2013-08-18 19:36:52.400879'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Sage Senger', '699 Francesca Grove', NULL, 'Clementinestad', 'SC', '34338-5368', '2013-08-18 19:36:52.401248', '2013-08-18 19:36:52.401249'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Miss Kristina Bauch', '9831 Waino Hollow', NULL, 'Markschester', 'FM', '74576', '2013-08-18 19:36:52.401712', '2013-08-18 19:36:52.401713'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Selmer Halvorson', '7485 Cullen Cliffs', NULL, 'East Clayton', 'VI', '93393', '2013-08-18 19:36:52.402079', '2013-08-18 19:36:52.402080'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Miss Zoie Anderson', '64387 Ardith Pass', NULL, 'Borerchester', 'KS', '75430-7116', '2013-08-18 19:36:52.402441', '2013-08-18 19:36:52.402442'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Demarco Donnelly Sr.', '1718 Antonio Via', NULL, 'Hesseltown', 'PW', '87611-4272', '2013-08-18 19:36:52.402892', '2013-08-18 19:36:52.402893'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Boyd Haley', '51373 Hipolito Passage', NULL, 'East Alanna', 'OH', '93789-0693', '2013-08-18 19:36:52.403305', '2013-08-18 19:36:52.403307'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Dr. Daphnee Swift', '755 Marisol Burgs', NULL, 'Cruickshankburgh', 'GU', '81626', '2013-08-18 19:36:52.403730', '2013-08-18 19:36:52.403732'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Terrance Schiller I', '81220 Lynch Shores', NULL, 'Todfort', 'OH', '21913-8054', '2013-08-18 19:36:52.404130', '2013-08-18 19:36:52.404131'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Kayla McLaughlin', '876 Conn Causeway', NULL, 'Veumstad', 'CT', '98783', '2013-08-18 19:36:52.404524', '2013-08-18 19:36:52.404525'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Jermaine Heller', '7420 Schuppe Route', NULL, 'Keshawnburgh', 'NV', '20984', '2013-08-18 19:36:52.404875', '2013-08-18 19:36:52.404876'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Kaley Murazik', '9010 Bernier Shore', NULL, 'New Briabury', 'WI', '98400-9503', '2013-08-18 19:36:52.405217', '2013-08-18 19:36:52.405218'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Dovie Dietrich', '9109 Angelita Prairie', NULL, 'Marquardthaven', 'MN', '19647', '2013-08-18 19:36:52.405581', '2013-08-18 19:36:52.405582'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Clement Runte', '5438 Tate Field', NULL, 'Jermeymouth', 'GU', '62131', '2013-08-18 19:36:52.405948', '2013-08-18 19:36:52.405949'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Kelvin Reilly PhD', '33224 Howell Radial', NULL, 'Christiansenshire', 'VT', '42457-8502', '2013-08-18 19:36:52.406328', '2013-08-18 19:36:52.406329'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Aidan Ferry', '3793 Buckridge Terrace', NULL, 'Mittieland', 'ME', '59676', '2013-08-18 19:36:52.406738', '2013-08-18 19:36:52.406739'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Clifford Heaney IV', '93061 Simonis Vista', NULL, 'Bergnaumfort', 'HI', '86603', '2013-08-18 19:36:52.407176', '2013-08-18 19:36:52.407190'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Dr. Rylee Mueller', '673 Heller Tunnel', NULL, 'Maxieview', 'VI', '62724-5652', '2013-08-18 19:36:52.407677', '2013-08-18 19:36:52.407679'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Rowan White IV', '4661 Rickie Dam', NULL, 'Port Annabel', 'NY', '11386', '2013-08-18 19:36:52.408121', '2013-08-18 19:36:52.408123'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Porter Bogan', '6829 Joanny Plain', NULL, 'East Bennie', 'NJ', '77721', '2013-08-18 19:36:52.408521', '2013-08-18 19:36:52.408522'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Dr. Giovani Kuhlman', '833 Becker Loaf', NULL, 'Lake Kaylah', 'FL', '68513-5790', '2013-08-18 19:36:52.408900', '2013-08-18 19:36:52.408902'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Dr. Emelia Schneider', '203 Williamson Mountain', NULL, 'Hamillside', 'KY', '29460-7706', '2013-08-18 19:36:52.409305', '2013-08-18 19:36:52.409307'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Miss Barrett Quitzon', '82720 Yost Grove', NULL, 'West Keon', 'AR', '99923-1636', '2013-08-18 19:36:52.409713', '2013-08-18 19:36:52.409714'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Jett Vandervort Jr.', '98824 Deja Spur', NULL, 'New Eliza', 'MP', '19174-3050', '2013-08-18 19:36:52.410119', '2013-08-18 19:36:52.410121'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Garrett Jewess', '5102 Schmeler Meadows', NULL, 'East Zella', 'NY', '47769-2245', '2013-08-18 19:36:52.410524', '2013-08-18 19:36:52.410525'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Ezekiel Weber', '87386 Gleason Knolls', NULL, 'East Audrey', 'WI', '73295', '2013-08-18 19:36:52.410889', '2013-08-18 19:36:52.410890'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Audie Trantow', '899 Felipe Islands', NULL, 'South Dariofort', 'FM', '98478', '2013-08-18 19:36:52.411264', '2013-08-18 19:36:52.411276'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Ms. Jessy Rohan', '3649 Muller Highway', NULL, 'Auerburgh', 'ND', '37525-7497', '2013-08-18 19:36:52.411707', '2013-08-18 19:36:52.411708'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Vicente Schaefer MD', '8943 Nellie Route', NULL, 'Ryleighview', 'MO', '70597-8560', '2013-08-18 19:36:52.412083', '2013-08-18 19:36:52.412085'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Kasandra Willms', '355 O''Kon Fork', NULL, 'North Madisonhaven', 'VI', '34598', '2013-08-18 19:36:52.412460', '2013-08-18 19:36:52.412461'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Ines Homenick', '342 Don Island', NULL, 'Bogisichside', 'MA', '27421', '2013-08-18 19:36:52.412845', '2013-08-18 19:36:52.412847'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Tyrell Marvin', '1298 Catalina Forest', NULL, 'Jaskolskiville', 'KS', '96909-1496', '2013-08-18 19:36:52.413365', '2013-08-18 19:36:52.413366'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Dr. Kole Braun', '48078 Wuckert Mountains', NULL, 'Arielfurt', 'FM', '54220', '2013-08-18 19:36:52.413902', '2013-08-18 19:36:52.413903'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Hector Blick', '5394 Constantin Corners', NULL, 'Port Eldorachester', 'WV', '17673-2789', '2013-08-18 19:36:52.414446', '2013-08-18 19:36:52.414447'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Gino Schmitt', '37709 Walker Drive', NULL, 'North Daneborough', 'AE', '95044-1800', '2013-08-18 19:36:52.414853', '2013-08-18 19:36:52.414854'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Krystel Bergnaum III', '2127 Lemke Squares', NULL, 'Lake Cristobal', 'AK', '86203-3449', '2013-08-18 19:36:52.415262', '2013-08-18 19:36:52.415263'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Theodore Cruickshank', '3745 Cruz Station', NULL, 'West Gabe', 'OH', '35372', '2013-08-18 19:36:52.415633', '2013-08-18 19:36:52.415634'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Issac Rowe', '301 Savion Views', NULL, 'West Destiny', 'NC', '71562', '2013-08-18 19:36:52.415962', '2013-08-18 19:36:52.415963'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Ms. Roselyn Durgan', '8263 Windler Manor', NULL, 'Port Spencerberg', 'MI', '78900', '2013-08-18 19:36:52.416357', '2013-08-18 19:36:52.416358'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Brando Pfeffer', '64373 Anna Plains', NULL, 'Kemmerstad', 'MT', '19186', '2013-08-18 19:36:52.416737', '2013-08-18 19:36:52.416738'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Hellen Davis I', '83271 Hauck Avenue', NULL, 'Aubreeberg', 'MD', '62768', '2013-08-18 19:36:52.417082', '2013-08-18 19:36:52.417083'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Antonia Lind', '7602 Kuhic Springs', NULL, 'North Linashire', 'ND', '24145', '2013-08-18 19:36:52.417457', '2013-08-18 19:36:52.417458'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Lonnie Kunze', '325 Ophelia Stravenue', NULL, 'Lebsackmouth', 'CT', '87796', '2013-08-18 19:36:52.417841', '2013-08-18 19:36:52.417844'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Dillan Emard', '6366 Reinger Islands', NULL, 'South Williefurt', 'CT', '96647-3744', '2013-08-18 19:36:52.418202', '2013-08-18 19:36:52.418203'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Elwin Brekke', '81304 Erdman Court', NULL, 'Leifside', 'MH', '95209-2054', '2013-08-18 19:36:52.418575', '2013-08-18 19:36:52.418576'); INSERT INTO "restrooms" ("id", "name", "line1", "line2", "city", "state", "zip", "created_at", "updated_at") VALUES (DEFAULT, 'Miss Jana Lindgren', '44697 Hilpert Courts', NULL, 'Tavaresshire', 'NM', '37828', '2013-08-18 19:36:52.418932', '2013-08-18 19:36:52.418933')
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-18 15:37:06 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (21.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 442ms (Views: 419.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-18 15:37:07 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-18 15:37:07 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-18 15:37:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-18 15:37:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-18 15:37:07 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-18 15:37:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-18 15:37:07 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-18 15:37:07 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-18 15:37:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-18 15:37:07 -0400
+
+
+Started GET "/restrooms" for 127.0.0.1 at 2013-08-18 15:37:10 -0400
+Processing by RestroomsController#index as HTML
+  [1m[35mRestroom Load (1.0ms)[0m  SELECT "restrooms".* FROM "restrooms"
+  Rendered restrooms/index.html.erb within layouts/application (71.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 87ms (Views: 77.5ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-18 15:37:10 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-18 15:37:10 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-18 15:37:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-18 15:37:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-18 15:37:10 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-18 15:37:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-18 15:37:10 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-18 15:37:10 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-18 15:37:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-18 15:37:10 -0400

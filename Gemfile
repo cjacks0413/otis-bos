@@ -3,13 +3,14 @@ ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
 gem 'rails', '4.0.0'
+gem 'pg', '0.15.1'
 gem 'bootstrap-sass', '2.3.2.0' 
 gem 'faker', '1.1.2' 
 gem 'populator' 
 
 group :development do
-  gem 'sqlite3', '1.3.7' 
   gem 'rspec-rails', '2.13.1' 
+  gem 'taps' 
 end
 
 group :test do
@@ -30,7 +31,6 @@ group :doc do
 end
 
 group :production do
-  gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
   gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
   gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'

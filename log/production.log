@@ -450,3 +450,93 @@ ActiveRecord::StatementInvalid (Could not find table 'restrooms'):
   app/controllers/restrooms_controller.rb:20:in `show'
 
 
+I, [2013-08-18T14:40:12.447587 #7198]  INFO -- : Started GET "/restrooms" for 127.0.0.1 at 2013-08-18 14:40:12 -0400
+I, [2013-08-18T14:40:12.483124 #7198]  INFO -- : Processing by RestroomsController#index as HTML
+E, [2013-08-18T14:40:12.508661 #7198] ERROR -- : SQLite3::SQLException: no such table: restrooms: SELECT "restrooms".* FROM "restrooms"
+I, [2013-08-18T14:40:12.509491 #7198]  INFO -- :   Rendered restrooms/index.html.erb within layouts/application (2.7ms)
+I, [2013-08-18T14:40:12.509693 #7198]  INFO -- : Completed 500 Internal Server Error in 26ms
+F, [2013-08-18T14:40:12.511772 #7198] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: restrooms: SELECT "restrooms".* FROM "restrooms"):
+    2: 
+    3: <h1> All Restrooms </h1> 
+    4: <ul class="span4" id="search_results">
+    5: <% @restrooms.each do |r| %>
+    6: <li>
+    7:   <div class="restroom_name">
+    8:     <%= r.name %> 
+  app/views/restrooms/index.html.erb:5:in `_app_views_restrooms_index_html_erb___4388897809903310747_70215022816640'
+
+
+I, [2013-08-18T14:40:14.569125 #7198]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-18 14:40:14 -0400
+I, [2013-08-18T14:40:14.571884 #7198]  INFO -- : Processing by StaticPagesController#home as HTML
+I, [2013-08-18T14:40:14.576833 #7198]  INFO -- :   Rendered shared/_search_form.html.erb (0.8ms)
+I, [2013-08-18T14:40:14.577168 #7198]  INFO -- :   Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+I, [2013-08-18T14:40:14.632419 #7198]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+I, [2013-08-18T14:40:14.633981 #7198]  INFO -- :   Rendered layouts/_footer.html.erb (0.7ms)
+I, [2013-08-18T14:40:14.634323 #7198]  INFO -- : Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+I, [2013-08-18T14:40:14.663686 #7198]  INFO -- : Started GET "/assets/application-9464154e08ab1f785357da5a188cf8d5.css" for 127.0.0.1 at 2013-08-18 14:40:14 -0400
+I, [2013-08-18T14:40:14.699982 #7198]  INFO -- : Started GET "/assets/application-a9d1ad8b03b4f1265dfddf828af37bba.js" for 127.0.0.1 at 2013-08-18 14:40:14 -0400
+I, [2013-08-18T14:40:18.131620 #7198]  INFO -- : Started GET "/restrooms" for 127.0.0.1 at 2013-08-18 14:40:18 -0400
+I, [2013-08-18T14:40:18.133737 #7198]  INFO -- : Processing by RestroomsController#index as HTML
+E, [2013-08-18T14:40:18.136272 #7198] ERROR -- : SQLite3::SQLException: no such table: restrooms: SELECT "restrooms".* FROM "restrooms"
+I, [2013-08-18T14:40:18.137107 #7198]  INFO -- :   Rendered restrooms/index.html.erb within layouts/application (1.8ms)
+I, [2013-08-18T14:40:18.137300 #7198]  INFO -- : Completed 500 Internal Server Error in 3ms
+F, [2013-08-18T14:40:18.139456 #7198] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: restrooms: SELECT "restrooms".* FROM "restrooms"):
+    2: 
+    3: <h1> All Restrooms </h1> 
+    4: <ul class="span4" id="search_results">
+    5: <% @restrooms.each do |r| %>
+    6: <li>
+    7:   <div class="restroom_name">
+    8:     <%= r.name %> 
+  app/views/restrooms/index.html.erb:5:in `_app_views_restrooms_index_html_erb___4388897809903310747_70215022816640'
+
+
+I, [2013-08-18T14:42:37.325635 #7198]  INFO -- : Started GET "/restrooms" for 127.0.0.1 at 2013-08-18 14:42:37 -0400
+I, [2013-08-18T14:42:37.327237 #7198]  INFO -- : Processing by RestroomsController#index as HTML
+E, [2013-08-18T14:42:37.329427 #7198] ERROR -- : SQLite3::SQLException: no such table: restrooms: SELECT "restrooms".* FROM "restrooms"
+I, [2013-08-18T14:42:37.330529 #7198]  INFO -- :   Rendered restrooms/index.html.erb within layouts/application (1.9ms)
+I, [2013-08-18T14:42:37.330752 #7198]  INFO -- : Completed 500 Internal Server Error in 3ms
+F, [2013-08-18T14:42:37.333866 #7198] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: restrooms: SELECT "restrooms".* FROM "restrooms"):
+    2: 
+    3: <h1> All Restrooms </h1> 
+    4: <ul class="span4" id="search_results">
+    5: <% @restrooms.each do |r| %>
+    6: <li>
+    7:   <div class="restroom_name">
+    8:     <%= r.name %> 
+  app/views/restrooms/index.html.erb:5:in `_app_views_restrooms_index_html_erb___4388897809903310747_70215022816640'
+
+
+I, [2013-08-18T14:42:40.777538 #7198]  INFO -- : Started GET "/restrooms/new" for 127.0.0.1 at 2013-08-18 14:42:40 -0400
+I, [2013-08-18T14:42:40.778809 #7198]  INFO -- : Processing by RestroomsController#new as HTML
+I, [2013-08-18T14:42:40.779676 #7198]  INFO -- : Completed 500 Internal Server Error in 1ms
+F, [2013-08-18T14:42:40.781294 #7198] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'restrooms'):
+  app/controllers/restrooms_controller.rb:3:in `new'
+
+
+I, [2013-08-18T14:42:40.788706 #7198]  INFO -- : Started GET "/restrooms/new" for 127.0.0.1 at 2013-08-18 14:42:40 -0400
+I, [2013-08-18T14:42:40.790047 #7198]  INFO -- : Processing by RestroomsController#new as HTML
+I, [2013-08-18T14:42:40.791241 #7198]  INFO -- : Completed 500 Internal Server Error in 1ms
+F, [2013-08-18T14:42:40.793480 #7198] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'restrooms'):
+  app/controllers/restrooms_controller.rb:3:in `new'
+
+
+I, [2013-08-18T15:36:22.336156 #24761]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-18 15:36:22 -0400
+I, [2013-08-18T15:36:22.540890 #24761]  INFO -- : Processing by StaticPagesController#home as HTML
+I, [2013-08-18T15:36:22.611194 #24761]  INFO -- :   Rendered shared/_search_form.html.erb (1.2ms)
+I, [2013-08-18T15:36:22.611518 #24761]  INFO -- :   Rendered static_pages/home.html.erb within layouts/application (13.4ms)
+I, [2013-08-18T15:36:22.741424 #24761]  INFO -- :   Rendered layouts/_header.html.erb (0.8ms)
+I, [2013-08-18T15:36:22.761361 #24761]  INFO -- :   Rendered layouts/_footer.html.erb (1.6ms)
+I, [2013-08-18T15:36:22.761904 #24761]  INFO -- : Completed 200 OK in 220ms (Views: 201.8ms | ActiveRecord: 0.0ms)
+I, [2013-08-18T15:36:24.467801 #24761]  INFO -- : Started GET "/search?utf8=%E2%9C%93&search=&commit=Search" for 127.0.0.1 at 2013-08-18 15:36:24 -0400
+I, [2013-08-18T15:36:24.470027 #24761]  INFO -- : Processing by RestroomsController#search as HTML
+I, [2013-08-18T15:36:24.470161 #24761]  INFO -- :   Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Search"}
+I, [2013-08-18T15:36:24.723690 #24761]  INFO -- :   Rendered restrooms/search.html.erb within layouts/application (212.2ms)
+I, [2013-08-18T15:36:24.726422 #24761]  INFO -- :   Rendered layouts/_header.html.erb (0.4ms)
+I, [2013-08-18T15:36:24.726940 #24761]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2013-08-18T15:36:24.727349 #24761]  INFO -- : Completed 200 OK in 257ms (Views: 45.6ms | ActiveRecord: 209.7ms)
