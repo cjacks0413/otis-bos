@@ -44,9 +44,7 @@ describe "RestroomPages" do
 	  describe "pagination" do 
 	    before(:all) { 30.times { FactoryGirl.create(:restroom) } } 
 	    after(:all) { Restroom.delete_all }
-	    
-	    it { should have_selector('div.pagination') } 
-	    
+	    	    
 	    it "should list each restroom" do 
 	      Restroom.paginate(page: 1).each do |restroom| 
 	        expect(page).to have_selector('li', text: restroom.name) 
