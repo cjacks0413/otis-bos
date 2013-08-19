@@ -13,7 +13,7 @@ class RestroomsController < ApplicationController
   end 
   
   def index
-    @restrooms = Restroom.all 
+    @restrooms = Restroom.paginate(page: params[:page]) 
   end
   
   def show

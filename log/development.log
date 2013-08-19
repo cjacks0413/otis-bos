@@ -13073,3 +13073,597 @@ Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-18 15:37:1
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-18 15:37:10 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-19 10:20:40 -0400
+
+PG::Error (could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (fe80::1) and accepting
+	TCP/IP connections on port 5432?
+):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `connect'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:542:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:53:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:792:in `current_version'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:800:in `needs_migration?'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__3415410461825364109__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (97.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-19 10:22:32 -0400
+
+PG::Error (could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (fe80::1) and accepting
+	TCP/IP connections on port 5432?
+):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `connect'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:542:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:53:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:792:in `current_version'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:800:in `needs_migration?'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__2047732928545817148__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-19 10:24:43 -0400
+
+PG::Error (could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (fe80::1) and accepting
+	TCP/IP connections on port 5432?
+):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `connect'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:542:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:53:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:792:in `current_version'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:800:in `needs_migration?'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__1304760691196406641__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-19 10:28:10 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (17.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (202.9ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 1353ms (Views: 1281.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 10:28:21 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-19 10:28:21 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-19 10:28:21 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-19 10:28:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 10:28:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 10:28:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-19 10:28:21 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-19 10:28:21 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-19 10:28:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 10:28:21 -0400
+
+
+Started GET "/restrooms/" for 127.0.0.1 at 2013-08-19 10:28:31 -0400
+Processing by RestroomsController#index as HTML
+  [1m[35mRestroom Load (50.9ms)[0m  SELECT "restrooms".* FROM "restrooms"
+  Rendered restrooms/index.html.erb within layouts/application (132.5ms)
+Completed 500 Internal Server Error in 173ms
+
+ActionView::Template::Error (undefined method `total_pages' for #<ActiveRecord::Relation::ActiveRecord_Relation_Restroom:0x007fe083ef8d58>):
+    2: 
+    3: <h1> All Restrooms </h1> 
+    4: 
+    5: <%= will_paginate %> 
+    6: 
+    7: <ul class="span4" id="search_results">
+    8:   <% @restrooms.each do |r| %>
+  app/views/restrooms/index.html.erb:5:in `_app_views_restrooms_index_html_erb__3021072780097289604_70301144265960'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-19 10:29:41 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 126ms (Views: 105.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 10:29:41 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-19 10:29:41 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-19 10:29:41 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-19 10:29:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 10:29:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 10:29:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-19 10:29:41 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-19 10:29:41 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-19 10:29:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 10:29:41 -0400
+
+
+Started GET "/restrooms/" for 127.0.0.1 at 2013-08-19 10:29:45 -0400
+Processing by RestroomsController#index as HTML
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (1.3ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0[0m
+  Rendered restrooms/index.html.erb within layouts/application (309.8ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 359ms (Views: 346.4ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 10:29:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 10:29:46 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-19 10:29:46 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-19 10:29:46 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-19 10:29:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 10:29:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-19 10:29:46 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-19 10:29:46 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-19 10:29:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 10:29:46 -0400
+
+
+Started GET "/restrooms/" for 127.0.0.1 at 2013-08-19 10:30:06 -0400
+Processing by RestroomsController#index as HTML
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.8ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0[0m
+  Rendered restrooms/index.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 10:30:06 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-19 10:30:06 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-19 10:30:06 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-19 10:30:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:06 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:06 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:06 -0400
+
+
+Started GET "/restrooms/" for 127.0.0.1 at 2013-08-19 10:30:20 -0400
+Processing by RestroomsController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.7ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0[0m
+  Rendered restrooms/index.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-19 10:30:21 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 10:30:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:21 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-19 10:30:21 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-19 10:30:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:21 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:21 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:21 -0400
+
+
+Started GET "/restrooms/" for 127.0.0.1 at 2013-08-19 10:30:33 -0400
+Processing by RestroomsController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0[0m
+  Rendered restrooms/index.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-19 10:30:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 10:30:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:33 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-19 10:30:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:33 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-19 10:30:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:33 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:33 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 10:30:33 -0400
+
+
+Started GET "/restrooms/" for 127.0.0.1 at 2013-08-19 10:31:06 -0400
+Processing by RestroomsController#index as HTML
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0[0m
+  Rendered restrooms/index.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 10:31:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-19 10:31:06 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-19 10:31:06 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-19 10:31:06 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-19 10:31:06 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-19 10:31:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 10:31:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 10:31:06 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-19 10:31:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 10:31:06 -0400
+
+
+Started GET "/restrooms/" for 127.0.0.1 at 2013-08-19 10:31:21 -0400
+Processing by RestroomsController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.7ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0[0m
+  Rendered restrooms/index.html.erb within layouts/application (22.0ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (undefined local variable or method `will_pageinate' for #<#<Class:0x007faf9255f2c8>:0x007faf92f86698>):
+    20:   <% end %>
+    21: </ul>
+    22: 
+    23: <%= will_pageinate %> 
+  app/views/restrooms/index.html.erb:23:in `_app_views_restrooms_index_html_erb___1676531099761841037_70196030877740'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/restrooms/" for 127.0.0.1 at 2013-08-19 10:31:30 -0400
+Processing by RestroomsController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.7ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0[0m
+  Rendered restrooms/index.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-19 10:31:30 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 10:31:30 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-19 10:31:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 10:31:30 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-19 10:31:30 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 10:31:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-19 10:31:30 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-19 10:31:30 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-19 10:31:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 10:31:30 -0400
+
+
+Started GET "/restrooms?page=2" for 127.0.0.1 at 2013-08-19 10:31:32 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 30[0m
+  Rendered restrooms/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/restrooms?page=3" for 127.0.0.1 at 2013-08-19 10:31:33 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"page"=>"3"}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.7ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 60[0m
+  Rendered restrooms/index.html.erb within layouts/application (10.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 53ms (Views: 51.0ms | ActiveRecord: 1.1ms)

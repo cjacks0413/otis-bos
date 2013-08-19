@@ -1,18 +1,23 @@
 <% provide(:title, 'All Restrooms') %> 
 
 <h1> All Restrooms </h1> 
-<ul class="span4" id="search_results">
-<% @restrooms.each do |r| %>
-<li>
-  <div class="restroom_name">
-    <%= r.name %> 
-  </div>
-  <div class="restroom_info">
-	<%= r.line1 %>  
-	<%= r.city %>, 
-	<%= r.state%>, 
-	<%= r.zip %> 
-  </div>
-</li> 
-<% end %>
+
+<%= will_paginate %> 
+
+<ul id="search_results">
+  <% @restrooms.each do |r| %>
+	<li>
+	  <div class="restroom_name">
+		<%= r.name %> 
+	  </div>
+	  <div class="restroom_info">
+		<%= r.line1 %>  
+		<%= r.city %>, 
+		<%= r.state%>, 
+		<%= r.zip %> 
+	  </div>
+	</li> 
+  <% end %>
 </ul>
+
+<%= will_paginate %> 
