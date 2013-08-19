@@ -8,7 +8,7 @@
   <% @restrooms.each do |r| %>
 	<li>
 	  <div class="restroom_name">
-		<%= r.name %> 
+		<%= link_to r.name, restroom_path(r) %> 
 	  </div>
 	  <div class="restroom_info">
 		<%= r.line1 %>  
