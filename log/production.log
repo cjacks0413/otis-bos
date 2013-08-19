@@ -540,3 +540,12 @@ I, [2013-08-18T15:36:24.723690 #24761]  INFO -- :   Rendered restrooms/search.ht
 I, [2013-08-18T15:36:24.726422 #24761]  INFO -- :   Rendered layouts/_header.html.erb (0.4ms)
 I, [2013-08-18T15:36:24.726940 #24761]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
 I, [2013-08-18T15:36:24.727349 #24761]  INFO -- : Completed 200 OK in 257ms (Views: 45.6ms | ActiveRecord: 209.7ms)
+I, [2013-08-19T13:02:15.588810 #1008]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-19 13:02:15 -0400
+I, [2013-08-19T13:02:15.655261 #1008]  INFO -- : Processing by StaticPagesController#home as HTML
+I, [2013-08-19T13:02:15.681606 #1008]  INFO -- :   Rendered shared/_search_form.html.erb (1.9ms)
+I, [2013-08-19T13:02:15.682249 #1008]  INFO -- :   Rendered static_pages/home.html.erb within layouts/application (4.7ms)
+I, [2013-08-19T13:02:19.279953 #1008]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+I, [2013-08-19T13:02:19.281540 #1008]  INFO -- :   Rendered layouts/_footer.html.erb (0.6ms)
+I, [2013-08-19T13:02:19.281993 #1008]  INFO -- : Completed 200 OK in 3626ms (Views: 3606.5ms | ActiveRecord: 0.0ms)
+I, [2013-08-19T13:02:19.293256 #1008]  INFO -- : Started GET "/assets/application-9464154e08ab1f785357da5a188cf8d5.css" for 127.0.0.1 at 2013-08-19 13:02:19 -0400
+I, [2013-08-19T13:02:19.307735 #1008]  INFO -- : Started GET "/assets/application-72bbccc760cf89b65a4d5ed31e6cfc61.js" for 127.0.0.1 at 2013-08-19 13:02:19 -0400
