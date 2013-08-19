@@ -1,0 +1,27 @@
+<%= provide(:title, 'Sign Up') %> 
+
+<h1>Sign Up</h1>
+
+<div class="row">
+  <div class="span9">
+    <div class="row">
+      <%= form_for(@user) do |f|%>
+	<div class="span6"> 
+		<%= f.label :Name%>
+		<%= f.text_field :name, placeholder: "First and Last Name" %>
+ 
+		<%= f.label :Email%>
+		<%= f.text_field :email, placeholder: "Email Address"%>
+ 	</div><div class="span4">
+		<%= f.label :Password%>
+		<%= f.password_field :password, placeholder: "Password" %>
+ 
+		<%= f.label :Password_Confirmation%>
+		<%= f.password_field :password_confirmation, placeholder: "Password Confirmation"%>
+ 
+		<%= f.submit "Create my account"%>	
+	</div> 	
+	  <% end %>  
+    </div> 
+  </div>
+</div>
