@@ -15683,3 +15683,141 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 13:00:00 -0400
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 13:00:00 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-19 13:56:21 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (58.7ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 391ms (Views: 369.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:22 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:22 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:22 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:22 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:22 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:22 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:22 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:22 -0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-08-19 13:56:31 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (365.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 454ms (Views: 380.9ms | ActiveRecord: 35.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:32 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:32 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:32 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:32 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:32 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:32 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:32 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:32 -0400
+
+
+Started POST "/users" for 127.0.0.1 at 2013-08-19 13:56:37 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lgE7lTJjgcCCnAb29zbZJZnHZY7vknA9fLfLvD0RFTo=", "user"=>{"name"=>"is", "email"=>"this", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (58.7ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'this' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 227ms (Views: 13.2ms | ActiveRecord: 59.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:38 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:38 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:38 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:38 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 13:56:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:38 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:38 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:38 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 13:56:38 -0400

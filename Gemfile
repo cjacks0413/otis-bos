@@ -14,6 +14,7 @@ gem 'bcrypt-ruby', '3.0.1'
 group :development do
   gem 'rspec-rails', '2.13.1' 
   gem 'taps' 
+  gem 'thin' 
 end
 
 group :test do
@@ -37,7 +38,6 @@ group :production do
   gem 'rails_12factor', '0.0.2'
   gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
   gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
-  gem 'unicorn' 
 end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -47,7 +47,7 @@ end
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+ gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
