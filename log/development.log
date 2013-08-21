@@ -18061,3 +18061,4212 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 10:12:34 -0400
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 10:12:34 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 10:32:46 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (27.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 2003ms (Views: 2001.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 10:32:49 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 10:32:49 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 10:32:49 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 10:32:49 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 10:32:49 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 10:32:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 10:32:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 10:32:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 10:32:49 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 10:32:49 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 10:32:49 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 10:32:49 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 10:32:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 10:32:49 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 10:33:01 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 763ms (Views: 762.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:02 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:02 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:02 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:02 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:02 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:02 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:02 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:02 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:02 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:02 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 10:33:16 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 759ms (Views: 758.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:17 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:17 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:17 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:17 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:17 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:17 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:17 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:17 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:17 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:17 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 10:33:24 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 764ms (Views: 763.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:25 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:25 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:25 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:25 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:25 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:25 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:25 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:25 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:25 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:25 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 10:33:28 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 770ms (Views: 768.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:29 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:29 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:29 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:29 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:29 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:29 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:29 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:29 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:29 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:29 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 755ms (Views: 754.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 10:33:34 -0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-08-21 10:34:11 -0400
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.2ms)
+  Rendered users/new.html.erb within layouts/application (39.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 117ms (Views: 88.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2013-08-21 10:34:16 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-08-21 10:34:19 -0400
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/new.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2013-08-21 10:34:20 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-08-21 10:34:26 -0400
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:05:16 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (26.6ms)
+Completed 500 Internal Server Error in 342ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap.min.js'
+  (in /Users/cameronjackson1/Github/otis-bos/app/assets/javascripts/application.js:15)):
+    3: <head>
+    4:   <title><%=full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9:   <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2265916234818029099_70352974962160'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (39.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:08:07 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (28.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 1159ms (Views: 1157.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:08 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:08:10 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:08:19 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:08:22 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:08:34 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:08:35 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:13:20 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+ERROR: compiling _app_views_layouts__footer_html_erb__2091173200106869934_70352977390980 RAISED /Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:7: syntax error, unexpected '<'
+      <li><%=link_to "Contact", cont...
+       ^
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_layouts__footer_html_erb__2091173200106869934_70352977390980(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/_footer";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<footer class="footer">
+  <nav>
+    <ul>
+      <li>';@output_buffer.append=(link_to "Home", root_path);@output_buffer.safe_append='</li>
+      <li>';@output_buffer.append=(link_to "About", about_path );@output_buffer.safe_append='</li>
+      <li role="button" class="btn" data-toggle="modal">';@output_buffer.append=(link_to "Does this work", #myModal></li> 
+      <li><%=link_to "Contact", contact_path );@output_buffer.safe_append='</li>
+    </ul>
+  </nav>
+</footer>';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/partial_renderer.rb:306:in `render_partial'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/partial_renderer.rb:279:in `block in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/partial_renderer.rb:278:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:47:in `render_partial'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___2265916234818029099_70352974962160'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:143:in `block in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__3392672753898098850__process_action__callbacks'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__917133277581251939__call__callbacks'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:81:in `block in pre_process'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:54:in `process'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/commands/server.rb:84:in `start'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:78:in `block in <top (required)>'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:73:in `tap'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:73:in `<top (required)>'
+bin/rails:4:in `require'
+bin/rails:4:in `<main>'
+  Rendered layouts/_footer.html.erb (1.3ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:7: syntax error, unexpected '<'
+      <li><%=link_to "Contact", cont...
+       ^
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:13: syntax error, unexpected keyword_end, expecting ')'):
+    4:       <li><%=link_to "Home", root_path%></li>
+    5:       <li><%=link_to "About", about_path %></li>
+    6:       <li role="button" class="btn" data-toggle="modal"><%=link_to "Does this work", #myModal></li> 
+    7:       <li><%=link_to "Contact", contact_path %></li>
+    8:     </ul>
+    9:   </nav>
+   10: </footer>
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___2265916234818029099_70352974962160'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:13:30 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+ERROR: compiling _app_views_layouts__footer_html_erb__2091173200106869934_70352987135580 RAISED /Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:6: syntax error, unexpected '<'
+..._to "Does this work", myModal></li> 
+...                               ^
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:7: unknown regexp option - l
+unmatched close parenthesis: /li> 
+      <li><%=link_to "Contact", contact_path );@output_buffer.safe_append='</i
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:8: syntax error, unexpected '<'
+    </ul>
+     ^
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:9: unknown regexp options - av
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:10: syntax error, unexpected '<'
+</footer>';@output_buffer.to_s
+ ^
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:10: unterminated regexp meets end of file
+Function body:           def _app_views_layouts__footer_html_erb__2091173200106869934_70352987135580(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/_footer";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<footer class="footer">
+  <nav>
+    <ul>
+      <li>';@output_buffer.append=(link_to "Home", root_path);@output_buffer.safe_append='</li>
+      <li>';@output_buffer.append=(link_to "About", about_path );@output_buffer.safe_append='</li>
+      <li role="button" class="btn" data-toggle="modal">';@output_buffer.append=(link_to "Does this work", myModal></li> 
+      <li><%=link_to "Contact", contact_path );@output_buffer.safe_append='</li>
+    </ul>
+  </nav>
+</footer>';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/partial_renderer.rb:306:in `render_partial'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/partial_renderer.rb:279:in `block in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/partial_renderer.rb:278:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:47:in `render_partial'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___2265916234818029099_70352974962160'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:143:in `block in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__3392672753898098850__process_action__callbacks'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__917133277581251939__call__callbacks'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:81:in `block in pre_process'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:54:in `process'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/commands/server.rb:84:in `start'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:78:in `block in <top (required)>'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:73:in `tap'
+/Users/cameronjackson1/Github/otis-bos/vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:73:in `<top (required)>'
+bin/rails:4:in `require'
+bin/rails:4:in `<main>'
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:6: syntax error, unexpected '<'
+..._to "Does this work", myModal></li> 
+...                               ^
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:7: unknown regexp option - l
+unmatched close parenthesis: /li> 
+      <li><%=link_to "Contact", contact_path );@output_buffer.safe_append='</i
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:8: syntax error, unexpected '<'
+    </ul>
+     ^
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:9: unknown regexp options - av
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:10: syntax error, unexpected '<'
+</footer>';@output_buffer.to_s
+ ^
+/Users/cameronjackson1/Github/otis-bos/app/views/layouts/_footer.html.erb:10: unterminated regexp meets end of file):
+    3:     <ul>
+    4:       <li><%=link_to "Home", root_path%></li>
+    5:       <li><%=link_to "About", about_path %></li>
+    6:       <li role="button" class="btn" data-toggle="modal"><%=link_to "Does this work", myModal></li> 
+    7:       <li><%=link_to "Contact", contact_path %></li>
+    8:     </ul>
+    9:   </nav>
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___2265916234818029099_70352974962160'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:13:40 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:13:41 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:16:31 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (15.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 83ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:16:32 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:16:33 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:17:14 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:17:20 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:17:22 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:18:54 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:18:57 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:19:04 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:23:09 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.9ms)
+  Rendered static_pages/home.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 1896ms
+
+ActionView::Template::Error (SyntaxError: unexpected IDENTIFIER
+  (in /Users/cameronjackson1/Github/otis-bos/app/assets/javascripts/static_pages.js.coffee)):
+    3: <head>
+    4:   <title><%=full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9:   <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2265916234818029099_70352974962160'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:23:25 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.2ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 608ms (Views: 606.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:26 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:23:29 -0400
+Processing by StaticPagesController#about as JS
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:23:30 -0400
+Processing by StaticPagesController#about as JS
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:23:31 -0400
+Processing by StaticPagesController#about as JS
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.9ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:23:41 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:08 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:09 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:09 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:09 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:09 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:09 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:24:09 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:24:18 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:06 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:18 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:19 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:33 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:25:42 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:26:47 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:22 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:47 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:27:56 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:28:08 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (28.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 68ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:09 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:28:17 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:28:19 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 63ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:29:59 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:29:59 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:29:59 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:29:59 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:29:59 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:29:59 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:29:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:30:00 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered shared/_about_modal.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:32:36 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2013-08-21 11:32:47 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered shared/_about_modal.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:03 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:31 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:39 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:49 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:33:55 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_about_modal.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:34:58 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:35:31 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:26 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:36:28 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:36 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered shared/_about_modal.html.erb (0.4ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-21 11:36:47 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:36:54 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered shared/_about_modal.html.erb (0.3ms)
+  Rendered shared/_contact_modal.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-08-21 11:36:55 -0400
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/new.html.erb within layouts/application (28.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered shared/_about_modal.html.erb (0.1ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 83ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2013-08-21 11:36:57 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-08-21 11:36:59 -0400
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (48.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 62ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-21 11:37:00 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
