@@ -1,0 +1,15 @@
+<ul id="search_results">
+  <% object.each do |r| %>
+	<li>
+	  <div class="restroom_name">
+		<%= link_to r.name, restroom_path(r) %> 
+	  </div>
+	  <div class="restroom_info">
+		<%= r.line1 %>  
+		<%= r.city %>, 
+		<%= r.state%>, 
+		<%= r.zip %> 
+	  </div>
+	</li> 
+  <% end %>
+</ul>

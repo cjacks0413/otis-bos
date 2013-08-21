@@ -4,20 +4,6 @@
 
 <%= will_paginate %> 
 
-<ul id="search_results">
-  <% @restrooms.each do |r| %>
-	<li>
-	  <div class="restroom_name">
-		<%= link_to r.name, restroom_path(r) %> 
-	  </div>
-	  <div class="restroom_info">
-		<%= r.line1 %>  
-		<%= r.city %>, 
-		<%= r.state%>, 
-		<%= r.zip %> 
-	  </div>
-	</li> 
-  <% end %>
-</ul>
+<%= render 'display_restrooms', object: @restrooms %> 
 
 <%= will_paginate %> 
