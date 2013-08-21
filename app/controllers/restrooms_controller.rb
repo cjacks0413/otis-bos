@@ -1,4 +1,6 @@
 class RestroomsController < ApplicationController
+  before_action :signed_in_user, only: [:create, :new]  
+
   def new
     @restroom = Restroom.new 
   end
@@ -31,6 +33,11 @@ class RestroomsController < ApplicationController
     def restroom_params
       params.require(:restroom).permit(:name, :line1, :line2, :city, :state, :zip)
       
+    end
+    
+    def signed_in_user
+      store_location
+      redirect_to signin_url, notice: "Please sign in." unless signed_in? 
     end
     
 end
