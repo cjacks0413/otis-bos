@@ -32,6 +32,8 @@ h2 {
 
 footer {
   margin-top: 45px;
+  margin-right: 20px; 
+  margin-left: 20px; 
   padding-top: 5px;
   border-top: 1px solid $lightgrey;
   color: $blue;
@@ -69,10 +71,11 @@ header {
   nav {
     float: right; 
     list-style: none;
+    margin-right: 20px; 
     li { 
       float: left;
       margin-left: 10px;
-      margin: 5px;  
+      margin: 5px;
     }
   }
   #logo { 
