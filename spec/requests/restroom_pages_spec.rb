@@ -5,6 +5,8 @@ describe "RestroomPages" do
   subject { page } 
   
   describe "add restroom page" do
+    let(:user) { FactoryGirl.create(:user) } 
+
     before { visit new_restroom_path} 
     
     let(:submit) { "Add This Restroom" } 

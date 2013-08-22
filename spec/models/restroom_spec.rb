@@ -15,7 +15,8 @@ describe Restroom do
   it { should respond_to(:city) }
   it { should respond_to(:state) }
   it { should respond_to(:zip) }
-
+  it { should respond_to(:reviews) } 
+  
   it { should be_valid } 
   
   describe "when name is not present" do 

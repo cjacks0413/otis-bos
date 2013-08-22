@@ -6,6 +6,12 @@ FactoryGirl.define do
 	state  "MA"
 	zip	 "02116" 
   end  
+  
+  factory :review do
+    author "Djan Jackson" 
+    content "Lorem ipsum" 
+    restroom 
+  end
 end
 
 FactoryGirl.define do
@@ -16,3 +22,4 @@ FactoryGirl.define do
 	password_confirmation "foobar" 
   end 
 end
+
