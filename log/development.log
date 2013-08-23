@@ -41077,3 +41077,994 @@ Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 16:08:2
 
 
 Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 16:08:26 -0400
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-23 16:25:21 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestroom Load (0.5ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '5416fda6c8509aca4579f156ba7a10b5ed734087' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1[0m  [["restroom_id", 1]]
+  [1m[35mReview Load (0.3ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0  [["restroom_id", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  Rendered reviews/_review.html.erb (3.6ms)
+  Rendered restrooms/show.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered shared/_about_modal.html.erb (0.1ms)
+  Rendered shared/_contact_modal.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 1011ms (Views: 1005.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:22 -0400
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-23 16:25:31 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRestroom Load (0.8ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '5416fda6c8509aca4579f156ba7a10b5ed734087' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1  [["restroom_id", 1]]
+  [1m[36mReview Load (0.4ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0[0m  [["restroom_id", 1]]
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  Rendered reviews/_review.html.erb (3.1ms)
+  Rendered restrooms/show.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 997ms (Views: 989.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:32 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:33 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:33 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:33 -0400
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-23 16:25:55 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestroom Load (0.5ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '5416fda6c8509aca4579f156ba7a10b5ed734087' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1[0m  [["restroom_id", 1]]
+  [1m[35mReview Load (0.3ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0  [["restroom_id", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  Rendered reviews/_review.html.erb (2.9ms)
+  Rendered restrooms/show.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 755ms (Views: 749.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 16:25:56 -0400
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-23 16:26:43 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRestroom Load (0.6ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '5416fda6c8509aca4579f156ba7a10b5ed734087' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1  [["restroom_id", 1]]
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0[0m  [["restroom_id", 1]]
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  Rendered reviews/_review.html.erb (3.9ms)
+  Rendered restrooms/show.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 765ms (Views: 758.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:44 -0400
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-23 16:26:57 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '5416fda6c8509aca4579f156ba7a10b5ed734087' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1[0m  [["restroom_id", 1]]
+  [1m[35mReview Load (0.3ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0  [["restroom_id", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  Rendered reviews/_review.html.erb (3.1ms)
+  Rendered restrooms/show.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 753ms (Views: 745.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 16:26:58 -0400
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-23 16:27:12 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRestroom Load (0.6ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '5416fda6c8509aca4579f156ba7a10b5ed734087' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1  [["restroom_id", 1]]
+  [1m[36mReview Load (0.4ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0[0m  [["restroom_id", 1]]
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  Rendered reviews/_review.html.erb (3.8ms)
+  Rendered restrooms/show.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 749ms (Views: 742.1ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 16:27:13 -0400
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-23 16:27:56 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '5416fda6c8509aca4579f156ba7a10b5ed734087' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1[0m  [["restroom_id", 1]]
+  [1m[35mReview Load (0.4ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0  [["restroom_id", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  Rendered reviews/_review.html.erb (3.6ms)
+  Rendered restrooms/show.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (Invalid CSS after "	    color ": expected "{", was "$lightgrey; "
+  (in /Users/cameronjackson1/Github/otis-bos/app/assets/stylesheets/custom.css.scss:111)):
+    2: <html>
+    3: <head>
+    4:   <title><%=full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:111
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1872822931862470718_70175583380360'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-23 16:28:09 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRestroom Load (0.5ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '5416fda6c8509aca4579f156ba7a10b5ed734087' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1  [["restroom_id", 1]]
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0[0m  [["restroom_id", 1]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  Rendered reviews/_review.html.erb (2.6ms)
+  Rendered restrooms/show.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (Invalid CSS after "	    color ": expected "{", was "$lightgrey; "
+  (in /Users/cameronjackson1/Github/otis-bos/app/assets/stylesheets/custom.css.scss:111)):
+    2: <html>
+    3: <head>
+    4:   <title><%=full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:111
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1872822931862470718_70175583380360'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.9ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-23 16:28:22 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestroom Load (0.4ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '5416fda6c8509aca4579f156ba7a10b5ed734087' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1[0m  [["restroom_id", 1]]
+  [1m[35mReview Load (0.3ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0  [["restroom_id", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  Rendered reviews/_review.html.erb (2.6ms)
+  Rendered restrooms/show.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 767ms (Views: 762.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:23 -0400
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-23 16:28:48 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRestroom Load (0.5ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '5416fda6c8509aca4579f156ba7a10b5ed734087' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1  [["restroom_id", 1]]
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0[0m  [["restroom_id", 1]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  Rendered reviews/_review.html.erb (3.1ms)
+  Rendered restrooms/show.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 781ms (Views: 775.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 16:28:49 -0400
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-23 16:28:59 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestroom Load (0.7ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '5416fda6c8509aca4579f156ba7a10b5ed734087' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1[0m  [["restroom_id", 1]]
+  [1m[35mReview Load (0.4ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0  [["restroom_id", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  Rendered reviews/_review.html.erb (2.9ms)
+  Rendered restrooms/show.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 778ms (Views: 770.0ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 16:29:00 -0400
