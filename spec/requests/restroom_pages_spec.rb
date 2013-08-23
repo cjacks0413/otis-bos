@@ -6,8 +6,11 @@ describe "RestroomPages" do
   
   describe "add restroom page" do
     let(:user) { FactoryGirl.create(:user) } 
-
-    before { visit new_restroom_path} 
+	before do 
+	  sign_in user
+	  visit new_restroom_path
+	end 
+   # before { visit new_restroom_path} 
     
     let(:submit) { "Add This Restroom" } 
     
@@ -32,12 +35,12 @@ describe "RestroomPages" do
 		fill_in "restroom_state", with: "MA"
 		fill_in "restroom_zip", with: "02116" 
 	  end
-  end 
+   
 	  it "should create a restroom" do
 		expect { click_button submit }.to change(Restroom, :count).by(1)
 	  end 
    end
-  
+end  
   
   describe "show all restrooms" do 
 	before { visit restrooms_path }    
@@ -87,4 +90,3 @@ end
 #     
 #   end 
 
-end 

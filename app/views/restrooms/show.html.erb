@@ -4,10 +4,11 @@
 <%= @restroom.city %>, <%= @restroom.state%> , <%= @restroom.zip %> </p> 
 
 <% if @restroom.reviews.any? %> 
-  <h3> Reviews: <%= @restroom.reviews.count %> </h3> 
+  <h4> Reviews: <%= @restroom.reviews.count %> </h4> 
   <ol class= "reviews"> 
     <%= render @reviews %> 
   </ol>
     <%= will_paginate @reviews %> 
 <% end %> 
 
+<%= link_to 'Add a Review', new_restroom_review_path(@restroom) %>

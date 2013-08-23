@@ -1,4 +1,5 @@
-<li>
-  <%= review.author %> 
-  <%= review.content %> 
-</li>
+<ul class="single_review">
+  <li class="review_auth"><%= link_to review.author, 
+  			user_path(User.find_by email: review.author) %></li> 
+  <li class="review_cont"><%= review.content %></li>
+</ul> 

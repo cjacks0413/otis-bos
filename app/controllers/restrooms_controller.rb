@@ -21,6 +21,7 @@ class RestroomsController < ApplicationController
   def show
     @restroom = Restroom.find(params[:id]) 
     @reviews = @restroom.reviews.paginate(page: params[:page]) 
+    @new_review = @restroom.reviews.build if signed_in?  
   end
   
   def search

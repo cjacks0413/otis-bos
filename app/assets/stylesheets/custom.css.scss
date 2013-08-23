@@ -98,3 +98,19 @@ header {
     font-weight: bold;
   }
 }
+
+/* reviews */ 
+.single_review {
+	list-style: none;
+	li {
+	  padding: 10px 0; 
+	  #review_auth {
+	    text-color: $coral; 
+	  }
+	  #review_cont {
+	    display: block;
+	    margin: 5px; 
+	    background-color: $lightgrey;
+	  }
+	}
+}

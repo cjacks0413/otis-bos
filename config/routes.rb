@@ -1,5 +1,7 @@
 Bpr::Application.routes.draw do
-  resources :restrooms 
+  resources :restrooms do
+    resources :reviews
+  end
   match 'search', to: 'restrooms#search', via: 'get' 
   match '/add', to: 'restrooms#create', via: 'post'
   root 'static_pages#home' 
@@ -13,7 +15,7 @@ Bpr::Application.routes.draw do
   match 'signin', to: 'sessions#new', via: 'get' 
   match 'signout', to: 'sessions#destroy', via: 'delete' 
   
-  resources :microposts, only: [:create, :destroy] 
+#  resources :reviews, only: [:create, :destroy] 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,0 +1,8 @@
+<h3>Write a Review for <%= @restroom.name %></h3>
+<%= render 'shared/error_messages', object: @review %> 
+<%= form_for([@restroom, @review]) do |f| %>
+  <div class="field"> 
+    <%= f.text_area :content, placeholder: "Write Review Here" %> 
+  </div> 
+  <%= f.submit "Review", class: "btn btn-primary" %> 
+<% end %> 

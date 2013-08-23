@@ -1,7 +1,7 @@
 class Restroom < ActiveRecord::Base
   has_many :reviews, dependent: :destroy  
 
-  validates :name, presence: true, length: { maximum: 50 }
+  validates :name, presence: true, length: { maximum: 50 }, uniqueness: true 
   validates :line1, presence: true, length: { maximum: 50 }
   validates :line2, length: { maximum: 50 }, allow_blank: true  
   validates :city, presence: true, length: { maximum: 50 } 
