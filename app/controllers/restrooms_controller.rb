@@ -20,6 +20,7 @@ class RestroomsController < ApplicationController
   
   def show
     @restroom = Restroom.find(params[:id]) 
+    @reviews = @restroom.reviews.paginate(page: params[:page]) 
   end
   
   def search
@@ -34,10 +35,6 @@ class RestroomsController < ApplicationController
       params.require(:restroom).permit(:name, :line1, :line2, :city, :state, :zip)
       
     end
-    
-    def signed_in_user
-      store_location
-      redirect_to signin_url, notice: "Please sign in." unless signed_in? 
-    end
+
     
 end

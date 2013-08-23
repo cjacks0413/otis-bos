@@ -3,5 +3,11 @@
 <p><%= @restroom.line1 %> <br /> 
 <%= @restroom.city %>, <%= @restroom.state%> , <%= @restroom.zip %> </p> 
 
-<p>Reviews, Rating, Maps...</p>
+<% if @restroom.reviews.any? %> 
+  <h3> Reviews: <%= @restroom.reviews.count %> </h3> 
+  <ol class= "reviews"> 
+    <%= render @reviews %> 
+  </ol>
+    <%= will_paginate @reviews %> 
+<% end %> 
 

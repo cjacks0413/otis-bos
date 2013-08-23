@@ -32,37 +32,50 @@ describe "RestroomPages" do
 		fill_in "restroom_state", with: "MA"
 		fill_in "restroom_zip", with: "02116" 
 	  end
-	
+  end 
 	  it "should create a restroom" do
 		expect { click_button submit }.to change(Restroom, :count).by(1)
 	  end 
    end
   
   
-	describe "show all restrooms" do 
-	  before { visit restrooms_path }    
-	  it { should have_content('All Restrooms') } 
-	  
-	  describe "pagination" do 
-	    before(:all) { 30.times { FactoryGirl.create(:restroom) } } 
-	    after(:all) { Restroom.delete_all }
-	    	    
-	    it "should list each restroom" do 
-	      Restroom.paginate(page: 1).each do |restroom| 
-	        expect(page).to have_selector('li', text: restroom.name) 
-	      end
-	    end 
-	  end 
-	end
-  
-	describe "restroom page" do 
-	  let(:restroom) { FactoryGirl.create(:restroom) }
-	  before { visit restroom_path(restroom) } 
+  describe "show all restrooms" do 
+	before { visit restrooms_path }    
+	it { should have_content('All Restrooms') } 
 	
-	  it { should have_content(restroom.name) }
-	  it { should have_content(restroom.line1) } 
+	describe "pagination" do 
+	  before(:all) { 30.times { FactoryGirl.create(:restroom) } } 
+	  after(:all) { Restroom.delete_all }
+			  
+	  it "should list each restroom" do 
+		Restroom.paginate(page: 1).each do |restroom| 
+		  expect(page).to have_selector('li', text: restroom.name) 
+		end
+	  end 
+	end 
+  end
+
+  describe "restroom page" do 
+	let(:restroom) { FactoryGirl.create(:restroom) }
+	let!(:r1) { FactoryGirl.create(:review, author: "My name is", 
+				content: "Loreeemmmm Ippsssuujmm", restroom: restroom) } 
+	let!(:r2) { FactoryGirl.create(:review, author: "What", content: "lfjkd",
+				restroom: restroom) } 
+				
+	before { visit restroom_path(restroom) } 
+  
+	it { should have_content(restroom.name) }
+	it { should have_content(restroom.line1) } 
+	
+	describe "reviews" do 
+	  it { should have_content(r1.content) } 
+	  it { should have_content(r2.content) } 
+	  it { should have_content(restroom.reviews.count) } 
 	end
   end
+  
+end
+  
   
 #   describe "search" do     
 #     before do 
