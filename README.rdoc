@@ -21,14 +21,15 @@ Implemented:
 
 * Custom search of Restrooms (zip only for now) 
 	
-* Add Restroom to database 
+* Add Restrooms to database 
   
+* Sign in/Sign out 
+
+* Reviewing restrooms 
 
 To be implemented: 
 
-* User login 
-
-* Rating and Reviewing restrooms
+* Editing and Updating for all models 
 
 * Custom search of Restrooms with neighborhood
 	
