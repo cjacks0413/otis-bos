@@ -29,6 +29,7 @@ class RestroomsController < ApplicationController
      #add validations for search form 
     @restrooms = Restroom.search(params[:search])
   end 
+
   
   private
     

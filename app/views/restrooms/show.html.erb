@@ -2,7 +2,6 @@
 <h2> <%= @restroom.name %> </h2>
 <p><%= @restroom.line1 %> <br /> 
 <%= @restroom.city %>, <%= @restroom.state%> , <%= @restroom.zip %> </p> 
-
 <% if @restroom.reviews.any? %> 
   <h4> Reviews: <%= @restroom.reviews.count %> </h4> 
   <ol class= "reviews"> 

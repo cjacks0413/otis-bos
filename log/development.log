@@ -42369,3 +42369,2538 @@ Processing by UsersController#show as HTML
   Rendered shared/_contact_modal.html.erb (0.0ms)
   Rendered layouts/_footer.html.erb (0.3ms)
 Completed 200 OK in 19ms (Views: 15.5ms | ActiveRecord: 1.7ms)
+  [1m[36mActiveRecord::SchemaMigration Load (33.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-23 19:20:53 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (2.2ms)
+  Rendered static_pages/home.html.erb within layouts/application (72.5ms)
+  [1m[35mUser Load (24.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'cb36046ff5588a4ed56a0bb61376b7eb083984eb' LIMIT 1
+  Rendered layouts/_header.html.erb (110.6ms)
+  Rendered shared/_about_modal.html.erb (0.9ms)
+  Rendered shared/_contact_modal.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 1048ms (Views: 986.0ms | ActiveRecord: 28.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 19:20:54 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 19:20:55 -0400
+
+
+Started GET "/users" for 127.0.0.1 at 2013-08-23 19:21:17 -0400
+Processing by UsersController#index as HTML
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" LIMIT 30 OFFSET 0
+  Rendered users/index.html.erb within layouts/application (6.8ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'cb36046ff5588a4ed56a0bb61376b7eb083984eb' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered shared/_about_modal.html.erb (0.4ms)
+  Rendered shared/_contact_modal.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 30.7ms | ActiveRecord: 2.4ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"n+sh99ezemb+kKVoN2NMKIqMhFSy1Qc/+glkTe8Xo/M="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 19:21:24 -0400
+
+
+Started GET "/restrooms/new" for 127.0.0.1 at 2013-08-23 19:22:28 -0400
+Processing by RestroomsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+Redirected to http://localhost:3000/signin
+Filter chain halted as :signed_in_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2013-08-23 19:22:28 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (370.0ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered shared/_about_modal.html.erb (0.1ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 420ms (Views: 419.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-08-23 19:22:41 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n+sh99ezemb+kKVoN2NMKIqMhFSy1Qc/+glkTe8Xo/M=", "session"=>{"email"=>"camjacks@example.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'camjacks@example.com' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (64.8ms)[0m  UPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = 3  [["remember_token", "ca06ed99b560f777f086d194394af9e3f7761109"], ["updated_at", Fri, 23 Aug 2013 23:22:41 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/restrooms/new
+Completed 302 Found in 191ms (ActiveRecord: 67.2ms)
+
+
+Started GET "/restrooms/new" for 127.0.0.1 at 2013-08-23 19:22:41 -0400
+Processing by RestroomsController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1
+  Rendered shared/_error_messages.html.erb (17.6ms)
+  Rendered restrooms/new.html.erb within layouts/application (64.9ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 174ms (Views: 93.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 19:22:42 -0400
+
+
+Started POST "/restrooms" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+Processing by RestroomsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n+sh99ezemb+kKVoN2NMKIqMhFSy1Qc/+glkTe8Xo/M=", "restroom"=>{"name"=>"Who care", "line1"=>"fjdksal;f", "line2"=>"", "city"=>"jfkdas;ldfk", "state"=>"MA", "zip"=>"99999"}, "commit"=>"Add This Restroom"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mRestroom Exists (19.3ms)[0m  [1mSELECT 1 AS one FROM "restrooms" WHERE "restrooms"."name" = 'Who care' LIMIT 1[0m
+  [1m[35mSQL (61.2ms)[0m  INSERT INTO "restrooms" ("city", "created_at", "line1", "line2", "name", "state", "updated_at", "zip") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["city", "jfkdas;ldfk"], ["created_at", Fri, 23 Aug 2013 23:23:01 UTC +00:00], ["line1", "fjdksal;f"], ["line2", ""], ["name", "Who care"], ["state", "MA"], ["updated_at", Fri, 23 Aug 2013 23:23:01 UTC +00:00], ["zip", "99999"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/restrooms/105
+Completed 302 Found in 194ms (ActiveRecord: 81.9ms)
+
+
+Started GET "/restrooms/105" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"105"}
+  [1m[35mRestroom Load (45.4ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1  [["id", "105"]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1  [["restroom_id", 105]]
+  [1m[36mReview Load (1.0ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0[0m  [["restroom_id", 105]]
+  Rendered collection (0.0ms)
+  Rendered restrooms/show.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 215ms (Views: 29.2ms | ActiveRecord: 50.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 19:23:01 -0400
+
+
+Started GET "/restrooms/105/reviews/new" for 127.0.0.1 at 2013-08-23 19:24:59 -0400
+Processing by ReviewsController#new as HTML
+  Parameters: {"restroom_id"=>"105"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1[0m  [["id", "105"]]
+  Rendered shared/_error_messages.html.erb (0.8ms)
+  Rendered reviews/new.html.erb within layouts/application (28.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 61ms (Views: 56.0ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/restrooms/105/reviews" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n+sh99ezemb+kKVoN2NMKIqMhFSy1Qc/+glkTe8Xo/M=", "review"=>{"content"=>"This fjkds;alfdja is the WORST bathroom in BOSTON OMG DONT GO HERE BAD IDEA "}, "commit"=>"Review", "restroom_id"=>"105"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1
+  [1m[36mRestroom Load (0.5ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1[0m  [["id", "105"]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "reviews" ("author", "content", "created_at", "restroom_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["author", "camjacks@example.com"], ["content", "This fjkds;alfdja is the WORST bathroom in BOSTON OMG DONT GO HERE BAD IDEA "], ["created_at", Fri, 23 Aug 2013 23:25:15 UTC +00:00], ["restroom_id", 105], ["updated_at", Fri, 23 Aug 2013 23:25:15 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/restrooms/105
+Completed 302 Found in 9ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/restrooms/105" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"105"}
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1[0m  [["id", "105"]]
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1[0m  [["restroom_id", 105]]
+  [1m[35mReview Load (0.5ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0  [["restroom_id", 105]]
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'camjacks@example.com' LIMIT 1[0m
+  Rendered reviews/_review.html.erb (5.1ms)
+  Rendered restrooms/show.html.erb within layouts/application (35.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered shared/_about_modal.html.erb (0.1ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 59ms (Views: 51.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 19:25:15 -0400
+
+
+Started GET "/users" for 127.0.0.1 at 2013-08-23 19:25:27 -0400
+Processing by UsersController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 30 OFFSET 0[0m
+  Rendered users/index.html.erb within layouts/application (2.9ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-23 19:25:30 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (3.3ms)
+  Rendered shared/_about_modal.html.erb (0.1ms)
+  Rendered shared/_contact_modal.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restrooms" for 127.0.0.1 at 2013-08-23 19:25:31 -0400
+Processing by RestroomsController#index as HTML
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (1.2ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0[0m
+  Rendered restrooms/_display_restrooms.html.erb (12.0ms)
+  Rendered restrooms/index.html.erb within layouts/application (33.8ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 67ms (Views: 63.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/restrooms?page=2" for 127.0.0.1 at 2013-08-23 19:25:39 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "restrooms"[0m
+  [1m[35mRestroom Load (0.7ms)[0m  SELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 30
+  Rendered restrooms/_display_restrooms.html.erb (43.6ms)
+  Rendered restrooms/index.html.erb within layouts/application (48.8ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 64ms (Views: 61.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/restrooms?page=3" for 127.0.0.1 at 2013-08-23 19:25:44 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"page"=>"3"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 60[0m
+  Rendered restrooms/_display_restrooms.html.erb (6.1ms)
+  Rendered restrooms/index.html.erb within layouts/application (10.7ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 26ms (Views: 23.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/restrooms?page=4" for 127.0.0.1 at 2013-08-23 19:25:49 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"page"=>"4"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "restrooms"[0m
+  [1m[35mRestroom Load (0.6ms)[0m  SELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 90
+  Rendered restrooms/_display_restrooms.html.erb (3.6ms)
+  Rendered restrooms/index.html.erb within layouts/application (8.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/restrooms?page=3" for 127.0.0.1 at 2013-08-23 19:25:50 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"page"=>"3"}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 60[0m
+  Rendered restrooms/_display_restrooms.html.erb (6.1ms)
+  Rendered restrooms/index.html.erb within layouts/application (11.1ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/restrooms?page=2" for 127.0.0.1 at 2013-08-23 19:25:51 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "restrooms"[0m
+  [1m[35mRestroom Load (0.7ms)[0m  SELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 30
+  Rendered restrooms/_display_restrooms.html.erb (6.2ms)
+  Rendered restrooms/index.html.erb within layouts/application (11.2ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/restrooms?page=1" for 127.0.0.1 at 2013-08-23 19:25:51 -0400
+Processing by RestroomsController#index as HTML
+  Parameters: {"page"=>"1"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0[0m
+  Rendered restrooms/_display_restrooms.html.erb (6.1ms)
+  Rendered restrooms/index.html.erb within layouts/application (10.4ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ca06ed99b560f777f086d194394af9e3f7761109' LIMIT 1
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 1.6ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"n+sh99ezemb+kKVoN2NMKIqMhFSy1Qc/+glkTe8Xo/M="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:06 -0400
+
+
+Started GET "/restrooms" for 127.0.0.1 at 2013-08-23 19:26:09 -0400
+Processing by RestroomsController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0[0m
+  Rendered restrooms/_display_restrooms.html.erb (6.9ms)
+  Rendered restrooms/index.html.erb within layouts/application (11.8ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/restrooms" for 127.0.0.1 at 2013-08-23 19:26:42 -0400
+Processing by RestroomsController#index as HTML
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "restrooms"[0m
+  [1m[35mRestroom Load (0.8ms)[0m  SELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0
+  Rendered restrooms/_display_restrooms.html.erb (7.5ms)
+  Rendered restrooms/index.html.erb within layouts/application (13.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 75ms (Views: 72.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=76527&commit=Search" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+Processing by RestroomsController#search as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"76527", "commit"=>"Search"}
+  [1m[35mRestroom Load (18.0ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE (zip LIKE '%76527%')
+  Rendered restrooms/_display_restrooms.html.erb (20.7ms)
+  Rendered restrooms/search.html.erb within layouts/application (22.7ms)
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 77ms (Views: 56.8ms | ActiveRecord: 18.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-23 19:26:47 -0400
+
+
+Started GET "/restrooms" for 127.0.0.1 at 2013-08-23 19:27:06 -0400
+Processing by RestroomsController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.9ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0[0m
+  Rendered restrooms/_display_restrooms.html.erb (6.9ms)
+  Rendered restrooms/index.html.erb within layouts/application (12.4ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/restrooms" for 127.0.0.1 at 2013-08-23 19:29:47 -0400
+Processing by RestroomsController#index as HTML
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "restrooms"[0m
+  [1m[35mRestroom Load (0.6ms)[0m  SELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0
+  Rendered restrooms/_display_restrooms.html.erb (6.6ms)
+  Rendered restrooms/index.html.erb within layouts/application (11.9ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered shared/_about_modal.html.erb (0.1ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/restrooms/2" for 127.0.0.1 at 2013-08-23 19:29:49 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRestroom Load (0.5ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1  [["id", "2"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  [1m[35mReview Exists (1.1ms)[0m  SELECT 1 AS one FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 1  [["restroom_id", 2]]
+  Rendered restrooms/show.html.erb within layouts/application (4.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 17.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/restrooms/2/reviews/new" for 127.0.0.1 at 2013-08-23 19:29:52 -0400
+Processing by ReviewsController#new as HTML
+  Parameters: {"restroom_id"=>"2"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+Redirected to http://localhost:3000/signin
+Filter chain halted as :signed_in_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2013-08-23 19:29:52 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-23 19:30:59 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  [1m[36mReview Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 1[0m  [["restroom_id", 1]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1  [["restroom_id", 1]]
+  [1m[36mReview Load (0.4ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0[0m  [["restroom_id", 1]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  Rendered reviews/_review.html.erb (3.4ms)
+  Rendered restrooms/show.html.erb within layouts/application (7.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 18.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/restrooms/3" for 127.0.0.1 at 2013-08-23 19:31:04 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mRestroom Load (0.5ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1  [["id", "3"]]
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  [1m[35mReview Exists (0.9ms)[0m  SELECT 1 AS one FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 1  [["restroom_id", 3]]
+  Rendered restrooms/show.html.erb within layouts/application (26.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered shared/_about_modal.html.erb (0.1ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 47ms (Views: 41.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/restrooms/2" for 127.0.0.1 at 2013-08-23 19:31:08 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRestroom Load (0.5ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1  [["id", "2"]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  [1m[35mReview Exists (0.5ms)[0m  SELECT 1 AS one FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 1  [["restroom_id", 2]]
+  Rendered restrooms/show.html.erb within layouts/application (1.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered shared/_about_modal.html.erb (0.1ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 19ms (Views: 15.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-23 19:31:12 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRestroom Load (0.5ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  [1m[35mReview Exists (0.5ms)[0m  SELECT 1 AS one FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 1  [["restroom_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1[0m  [["restroom_id", 1]]
+  [1m[35mReview Load (0.4ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0  [["restroom_id", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  Rendered reviews/_review.html.erb (2.7ms)
+  Rendered restrooms/show.html.erb within layouts/application (6.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 25ms (Views: 18.9ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-23 19:32:24 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restrooms/new" for 127.0.0.1 at 2013-08-23 19:34:23 -0400
+Processing by RestroomsController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+Redirected to http://localhost:3000/signin
+Filter chain halted as :signed_in_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2013-08-23 19:34:23 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered shared/_about_modal.html.erb (0.1ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-23 19:36:23 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restrooms" for 127.0.0.1 at 2013-08-23 19:37:16 -0400
+Processing by RestroomsController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0[0m
+  Rendered restrooms/_display_restrooms.html.erb (6.1ms)
+  Rendered restrooms/index.html.erb within layouts/application (10.4ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/restrooms/new" for 127.0.0.1 at 2013-08-23 19:37:57 -0400
+Processing by RestroomsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+Redirected to http://localhost:3000/signin
+Filter chain halted as :signed_in_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2013-08-23 19:37:57 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-31 13:30:31 -0400
+
+PG::Error (could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (fe80::1) and accepting
+	TCP/IP connections on port 5432?
+):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `connect'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:542:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:53:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:792:in `current_version'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:800:in `needs_migration?'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__195019683412134543__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:81:in `block in pre_process'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:54:in `process'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+  vendor/bundle/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+  vendor/bundle/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/commands/server.rb:84:in `start'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:78:in `block in <top (required)>'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:73:in `tap'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:73:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (191.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-31 13:30:41 -0400
+
+PG::Error (could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (fe80::1) and accepting
+	TCP/IP connections on port 5432?
+):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `connect'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:542:in `initialize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/cameronjackson1/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_handling.rb:53:in `connection'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:792:in `current_version'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:800:in `needs_migration?'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__195019683412134543__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:81:in `block in pre_process'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:54:in `process'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+  vendor/bundle/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+  vendor/bundle/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/commands/server.rb:84:in `start'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:78:in `block in <top (required)>'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:73:in `tap'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:73:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-31 13:30:58 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (18.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (55.6ms)
+  [1m[35mUser Load (75.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_header.html.erb (194.5ms)
+  Rendered shared/_about_modal.html.erb (1.1ms)
+  Rendered shared/_contact_modal.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 1480ms (Views: 1334.3ms | ActiveRecord: 115.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:01 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:02 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:02 -0400
+
+
+Started GET "/restrooms" for 127.0.0.1 at 2013-08-31 13:31:27 -0400
+Processing by RestroomsController#index as HTML
+  [1m[36m (55.8ms)[0m  [1mSELECT COUNT(*) FROM "restrooms"[0m
+  [1m[35mRestroom Load (65.4ms)[0m  SELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0
+  Rendered restrooms/_display_restrooms.html.erb (141.3ms)
+  Rendered restrooms/index.html.erb within layouts/application (679.4ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered shared/_about_modal.html.erb (0.3ms)
+  Rendered shared/_contact_modal.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 923ms (Views: 614.2ms | ActiveRecord: 176.9ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2013-08-31 13:31:34 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (41.6ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 84ms (Views: 82.0ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-08-31 13:31:39 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kIeu5Hvmb77USsJflS8Hg4np0vRbkpKsEbT/NEgVQOI=", "session"=>{"email"=>"pj@example.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  [1m[35m (20.9ms)[0m  BEGIN
+  [1m[36mSQL (204.8ms)[0m  [1mUPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = 4[0m  [["remember_token", "42c301ca5f6f7c148084bdee7a06fa2783c199d3"], ["updated_at", Sat, 31 Aug 2013 17:31:39 UTC +00:00]]
+  [1m[35m (953.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/4
+Completed 302 Found in 1337ms (ActiveRecord: 1180.9ms)
+
+
+Started GET "/users/4" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", "4"]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '42c301ca5f6f7c148084bdee7a06fa2783c199d3' LIMIT 1
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered shared/_about_modal.html.erb (0.1ms)
+  Rendered shared/_contact_modal.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 38.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-31 13:31:41 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-31 13:31:50 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.9ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '42c301ca5f6f7c148084bdee7a06fa2783c199d3' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered shared/_about_modal.html.erb (0.1ms)
+  Rendered shared/_contact_modal.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restrooms" for 127.0.0.1 at 2013-08-31 13:31:51 -0400
+Processing by RestroomsController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "restrooms"
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" LIMIT 30 OFFSET 0[0m
+  Rendered restrooms/_display_restrooms.html.erb (39.2ms)
+  Rendered restrooms/index.html.erb within layouts/application (44.0ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '42c301ca5f6f7c148084bdee7a06fa2783c199d3' LIMIT 1
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 60ms (Views: 57.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 13:31:53 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestroom Load (0.7ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '42c301ca5f6f7c148084bdee7a06fa2783c199d3' LIMIT 1
+  [1m[36m (33.6ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1[0m  [["restroom_id", 1]]
+  [1m[35mReview Load (1.3ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0  [["restroom_id", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  Rendered reviews/_review.html.erb (5.1ms)
+  Rendered restrooms/show.html.erb within layouts/application (93.9ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 245ms (Views: 90.9ms | ActiveRecord: 50.3ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:05:28 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (18.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__590682386678892174__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:81:in `block in pre_process'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:54:in `process'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+  vendor/bundle/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+  vendor/bundle/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+  vendor/bundle/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/commands/server.rb:84:in `start'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:78:in `block in <top (required)>'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:73:in `tap'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/commands.rb:73:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.9ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateRatingCaches (20130831180256073)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (1015.8ms)[0m  [1mCREATE TABLE "rating_caches" ("id" serial primary key, "cacheable_id" integer, "cacheable_type" character varying(255), "avg" float NOT NULL, "qty" integer NOT NULL, "dimension" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (70.7ms)[0m  CREATE INDEX "index_rating_caches_on_cacheable_id_and_cacheable_type" ON "rating_caches" ("cacheable_id", "cacheable_type")
+  [1m[36mSQL (61.7ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20130831180256073"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+Migrating to CreateRates (20130831180256081)
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (159.4ms)[0m  CREATE TABLE "rates" ("id" serial primary key, "rater_id" integer, "rateable_id" integer, "rateable_type" character varying(255), "stars" float NOT NULL, "dimension" character varying(255), "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (1.2ms)[0m  [1mCREATE INDEX "index_rates_on_rater_id" ON "rates" ("rater_id")[0m
+  [1m[35m (1.5ms)[0m  CREATE INDEX "index_rates_on_rateable_id_and_rateable_type" ON "rates" ("rateable_id", "rateable_type")
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20130831180256081"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:05:49 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+DEPRECATION WARNING: The following options in your Restroom.has_many :rates_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+DEPRECATION WARNING: The following options in your Restroom.has_one :rate_average_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+DEPRECATION WARNING: The following options in your Restroom.has_many :overall_rates declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+Completed 500 Internal Server Error in 76ms
+
+ArgumentError (association names must be a Symbol):
+  app/models/restroom.rb:3:in `<class:Restroom>'
+  app/models/restroom.rb:1:in `<top (required)>'
+  app/controllers/restrooms_controller.rb:22:in `show'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.4ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:09:19 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+DEPRECATION WARNING: The following options in your Restroom.has_many :rates_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+DEPRECATION WARNING: The following options in your Restroom.has_one :rate_average_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+DEPRECATION WARNING: The following options in your Restroom.has_many :overall_rates declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+Completed 500 Internal Server Error in 10ms
+
+ArgumentError (association names must be a Symbol):
+  app/models/restroom.rb:3:in `<class:Restroom>'
+  app/models/restroom.rb:1:in `<top (required)>'
+  app/controllers/restrooms_controller.rb:22:in `show'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.7ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:10:51 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 8ms
+
+NoMethodError (undefined method `letsrate' for #<Class:0x007ff044906550>):
+  app/models/restroom.rb:3:in `<class:Restroom>'
+  app/models/restroom.rb:1:in `<top (required)>'
+  app/controllers/restrooms_controller.rb:22:in `show'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:11:05 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+DEPRECATION WARNING: The following options in your Restroom.has_many :rates_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+DEPRECATION WARNING: The following options in your Restroom.has_one :rate_average_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+DEPRECATION WARNING: The following options in your Restroom.has_many :overall_rates declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+Completed 500 Internal Server Error in 8ms
+
+ArgumentError (association names must be a Symbol):
+  app/models/restroom.rb:3:in `<class:Restroom>'
+  app/models/restroom.rb:1:in `<top (required)>'
+  app/controllers/restrooms_controller.rb:22:in `show'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.7ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:12:30 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+DEPRECATION WARNING: The following options in your Restroom.has_many :rates_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+DEPRECATION WARNING: The following options in your Restroom.has_one :rate_average_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+DEPRECATION WARNING: The following options in your Restroom.has_many :overall_rates declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+Completed 500 Internal Server Error in 7ms
+
+ArgumentError (association names must be a Symbol):
+  app/models/restroom.rb:3:in `<class:Restroom>'
+  app/models/restroom.rb:1:in `<top (required)>'
+  app/controllers/restrooms_controller.rb:22:in `show'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.9ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:12:37 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+DEPRECATION WARNING: The following options in your Restroom.has_many :rates_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:2)
+DEPRECATION WARNING: The following options in your Restroom.has_one :rate_average_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:2)
+DEPRECATION WARNING: The following options in your Restroom.has_many :overall_rates declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:2)
+Completed 500 Internal Server Error in 8ms
+
+ArgumentError (association names must be a Symbol):
+  app/models/restroom.rb:2:in `<class:Restroom>'
+  app/models/restroom.rb:1:in `<top (required)>'
+  app/controllers/restrooms_controller.rb:22:in `show'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:13:59 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+DEPRECATION WARNING: The following options in your Restroom.has_many :rates_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:2)
+DEPRECATION WARNING: The following options in your Restroom.has_one :rate_average_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:2)
+DEPRECATION WARNING: The following options in your Restroom.has_many :overall_rates declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:2)
+Completed 500 Internal Server Error in 9ms
+
+ArgumentError (association names must be a Symbol):
+  app/models/restroom.rb:2:in `<class:Restroom>'
+  app/models/restroom.rb:1:in `<top (required)>'
+  app/controllers/restrooms_controller.rb:22:in `show'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.6ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:14:00 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+DEPRECATION WARNING: The following options in your Restroom.has_many :rates_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:2)
+DEPRECATION WARNING: The following options in your Restroom.has_one :rate_average_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:2)
+DEPRECATION WARNING: The following options in your Restroom.has_many :overall_rates declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:2)
+Completed 500 Internal Server Error in 7ms
+
+ArgumentError (association names must be a Symbol):
+  app/models/restroom.rb:2:in `<class:Restroom>'
+  app/models/restroom.rb:1:in `<top (required)>'
+  app/controllers/restrooms_controller.rb:22:in `show'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.7ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:22:29 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRestroom Load (35.0ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (36.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '42c301ca5f6f7c148084bdee7a06fa2783c199d3' LIMIT 1[0m
+  [1m[35m (115.1ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1  [["restroom_id", 1]]
+  [1m[36mReview Load (0.9ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0[0m  [["restroom_id", 1]]
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  Rendered reviews/_review.html.erb (8.9ms)
+  Rendered restrooms/show.html.erb within layouts/application (200.6ms)
+Completed 500 Internal Server Error in 2035ms
+
+ActionView::Template::Error (undefined local variable or method `ajaxful_rating_style' for #<#<Class:0x007ff047ce6050>:0x007ff047ce5128>):
+     5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+     6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+     7:   <%= csrf_meta_tags %>
+     8:   <%= ajaxful_rating_style %> 
+     9: </head>
+    10:   <body>
+    11:   	<%= render 'layouts/header' %> 
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___506504170211828069_70334986806340'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (68.8ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:22:45 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestroom Load (0.6ms)[0m  [1mSELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '42c301ca5f6f7c148084bdee7a06fa2783c199d3' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1[0m  [["restroom_id", 1]]
+  [1m[35mReview Load (0.3ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0  [["restroom_id", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  Rendered reviews/_review.html.erb (4.5ms)
+  Rendered restrooms/show.html.erb within layouts/application (43.3ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered shared/_about_modal.html.erb (0.7ms)
+  Rendered shared/_contact_modal.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 152ms (Views: 145.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-31 14:22:45 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-31 14:22:45 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-31 14:22:45 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-31 14:22:45 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-31 14:22:45 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-31 14:22:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/jquery.raty.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/letsrate.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-31 14:22:46 -0400
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:23:09 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+DEPRECATION WARNING: The following options in your Restroom.has_many :rates_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+DEPRECATION WARNING: The following options in your Restroom.has_one :rate_average_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+DEPRECATION WARNING: The following options in your Restroom.has_many :overall_rates declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+Completed 500 Internal Server Error in 8ms
+
+ArgumentError (association names must be a Symbol):
+  app/models/restroom.rb:3:in `<class:Restroom>'
+  app/models/restroom.rb:1:in `<top (required)>'
+  app/controllers/restrooms_controller.rb:22:in `show'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:23:26 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+DEPRECATION WARNING: The following options in your Restroom.has_many :rates_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+DEPRECATION WARNING: The following options in your Restroom.has_one :rate_average_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+DEPRECATION WARNING: The following options in your Restroom.has_many :speed_rates declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+Completed 500 Internal Server Error in 45ms
+
+ArgumentError (association names must be a Symbol):
+  app/models/restroom.rb:3:in `<class:Restroom>'
+  app/models/restroom.rb:1:in `<top (required)>'
+  app/controllers/restrooms_controller.rb:22:in `show'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.4ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:25:18 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+DEPRECATION WARNING: The following options in your Restroom.has_many :rates_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+DEPRECATION WARNING: The following options in your Restroom.has_one :rate_average_without_dimension declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+DEPRECATION WARNING: The following options in your Restroom.has_many :overall_rates declaration are deprecated: :conditions. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Restroom> at /Users/cameronjackson1/Github/otis-bos/app/models/restroom.rb:3)
+Completed 500 Internal Server Error in 7ms
+
+ArgumentError (association names must be a Symbol):
+  app/models/restroom.rb:3:in `<class:Restroom>'
+  app/models/restroom.rb:1:in `<top (required)>'
+  app/controllers/restrooms_controller.rb:22:in `show'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started GET "/restrooms/1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+Processing by RestroomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRestroom Load (0.4ms)[0m  SELECT "restrooms".* FROM "restrooms" WHERE "restrooms"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '42c301ca5f6f7c148084bdee7a06fa2783c199d3' LIMIT 1[0m
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."restroom_id" = $1  [["restroom_id", 1]]
+  [1m[36mReview Load (0.7ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."restroom_id" = $1 LIMIT 30 OFFSET 0[0m  [["restroom_id", 1]]
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'dd' LIMIT 1
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'pj@example.com' LIMIT 1
+  Rendered reviews/_review.html.erb (8.2ms)
+  Rendered restrooms/show.html.erb within layouts/application (50.2ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered shared/_about_modal.html.erb (0.1ms)
+  Rendered shared/_contact_modal.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 581ms (Views: 474.5ms | ActiveRecord: 9.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-31 14:32:44 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-31 14:32:50 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (4.7ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '42c301ca5f6f7c148084bdee7a06fa2783c199d3' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered shared/_about_modal.html.erb (0.3ms)
+  Rendered shared/_contact_modal.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (1.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.8ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '42c301ca5f6f7c148084bdee7a06fa2783c199d3' LIMIT 1
+  Rendered layouts/_header.html.erb (3.7ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-31 14:34:59 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_search_form.html.erb (0.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '42c301ca5f6f7c148084bdee7a06fa2783c199d3' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered shared/_about_modal.html.erb (0.0ms)
+  Rendered shared/_contact_modal.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/restrooms.css?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/restrooms.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-31 14:35:24 -0400
